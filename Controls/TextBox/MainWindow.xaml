@@ -1,0 +1,30 @@
+﻿<Window x:Class="TextBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="202" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid Margin="4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textbox" Grid.Column="0" Height="24" Margin="4" KeyDown="textbox_KeyDown"/>
+        <ComboBox x:Name="combobox" Grid.Column="1" Height="24" Margin="4" SelectionChanged="combobox_SelectionChanged">
+            <ComboBoxItem Content=""/>
+            <ComboBoxItem Content="qwertz"/>
+            <ComboBoxItem Content="asdfg"/>
+            <ComboBoxItem Content="yxcvb"/>
+        </ComboBox>
+        <TextBlock x:Name="textboxInfo" Grid.Row="2" Grid.ColumnSpan="2"/>
+        <Button Grid.Row="3" Grid.ColumnSpan="2" Content="Test" Width="60" Click="Button_Click"/>
+    </Grid>
+</Window>

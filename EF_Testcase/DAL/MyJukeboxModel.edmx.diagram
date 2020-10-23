@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1e74990751354103b6f75085c588a7ae" Name="Diagram1">
+        <EntityTypeShape EntityType="MyJukeboxModel.tSong" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="MyJukeboxModel.vSongs" Width="1.5" PointX="2.875" PointY="0.5" />
+        <EntityTypeShape EntityType="MyJukeboxModel.tPlaylists" Width="1.5" PointX="6.375" PointY="0.5" />
+        <EntityTypeShape EntityType="MyJukeboxModel.tPLentries" Width="1.5" PointX="8.625" PointY="0.5" />
+        <EntityTypeShape EntityType="MyJukeboxModel.vPlaylistSongs" Width="1.5" PointX="10.75" PointY="0.5" />
+        <AssociationConnector Association="MyJukeboxModel.FK_tPLentries_tPlaylists" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

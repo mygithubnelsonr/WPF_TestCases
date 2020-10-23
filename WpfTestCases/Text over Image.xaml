@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfTestCases.Text_over_Image"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTestCases"
+        mc:Ignorable="d"
+        Title="Text_over_Image" Height="220" Width="340" WindowStartupLocation="CenterScreen">
+    <StackPanel x:Name="stackpanel" Orientation="Vertical">
+        <Grid x:Name="gridtextoverimage" RenderTransformOrigin="0.499, 0.425">
+            <Image Source="/Images/image3.png" Height="120" Width="120"/>
+            <TextBlock x:Name="textblock" Text="Hallo" Height="34" Width="80" HorizontalAlignment="Left"
+                       VerticalAlignment="Top" FontFamily="Segoe Script" FontSize="28" FontWeight="Bold"/>
+        </Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="buttonmove1" Content="Move1" Margin="4" Click="buttonmove1_Click"/>
+            <Button x:Name="buttonmove2" Content="Move2" Margin="4" Click="ButtonMove2_Click"/>
+            <Button x:Name="buttonmove3" Content="Move3" Margin="4" Click="buttonmove3_Click"/>
+            <Button x:Name="buttonmove4" Content="Move4" Margin="4" Click="ButtonMove4_Click"/>
+            <Button x:Name="buttonmove5" Content="Move5" Margin="4" Click="ButtonMove5_Click"/>
+        </StackPanel>
+        <Button x:Name="buttonclose" Content="Close" Margin="4" Click="ButtonClose_Click"/>
+    </StackPanel>
+</Window>

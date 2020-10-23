@@ -1,0 +1,15 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\bin\Debug\Commands.exe.config
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\bin\Debug\Commands.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\bin\Debug\Commands.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands.Properties.Resources.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Commands\obj\Debug\Commands.csprojAssemblyReference.cache

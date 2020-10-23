@@ -1,0 +1,15 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\bin\Debug\LINQ Samples.exe.config
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\bin\Debug\LINQ Samples.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\bin\Debug\LINQ Samples.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ Samples.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ Samples_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ Samples_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ Samples.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ_Samples.Properties.Resources.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ Samples.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ Samples.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ Samples.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\LINQ Samples\obj\Debug\LINQ Samples.pdb

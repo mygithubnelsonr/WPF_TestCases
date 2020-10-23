@@ -1,0 +1,60 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Combobox"
+        xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2" x:Class="Combobox.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="257" Width="400" Background="#FF096292" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="ComboBox">
+            <Setter Property="Background" Value="Red"/>
+            <Setter Property="Foreground" Value="DarkBlue"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="ComboBoxItem">
+            <Setter Property="Background" Value="LightGray"/>
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True"/>
+                <Trigger Property="Background" Value="Green"/>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FF006C97"/>
+            <Setter Property="Foreground" Value="AntiqueWhite"/>
+            <Setter Property="BorderBrush" Value="#FF1D39B2"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="15" Background="#FF02132F">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="32"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
+            <ComboBox Name="combobox" Width="140" Margin="10 0" HorizontalAlignment="Left" IsEditable="False"
+                      SelectionChanged="combobox_SelectionChanged">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Path=Name}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Button x:Name="buttonAdd" Content="Add" Margin="10 0 0 0" Click="buttonAdd_Click"/>
+            <Button x:Name="buttonDown" Content="Down"  Margin="10 0 0 0" Click="buttonDown_Click"/>
+            <Button x:Name="buttonUp" Content="Up" Width="50" Margin="10 0 0 0" Click="buttonUp_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="10">
+            <TextBlock x:Name="textblock" Text="" Width="300" MinHeight="24" Margin="0 4" FontWeight="Bold" Foreground="AntiqueWhite" Background="#FF032034"/>
+            <Label x:Name="labelPerson" Width="300" MinHeight="60" Margin="0 4" FontWeight="Bold" Foreground="AntiqueWhite" Background="#FF032034"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Vertical" VerticalAlignment="Bottom">
+            <Button x:Name="buttonTest" Content="Test" Width="80" Margin="4" HorizontalAlignment="Center" Click="buttonTest_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Margin="10" Height="200" Width="300" TextElement.FontWeight="Bold" >
+
+  <DockPanel Background="#DDDDDD">
+    <Button DockPanel.Dock="Left" Background="Yellow" Content="(1) Left"/>
+    <Button DockPanel.Dock="Top" Background="Orange" Content="(2) Top"/>
+    <Button DockPanel.Dock="Right" Background="Red" Content="(3) Right"/>
+    <Button DockPanel.Dock="Bottom" Background="Lime" Content="(4) Bottom"/>
+    <Button DockPanel.Dock="Right" Background="Silver" Content="(5) Right"/>
+    <Button Background="RoyalBlue" Content="(6) Letztes Child"/>
+  </DockPanel>
+
+</Grid>

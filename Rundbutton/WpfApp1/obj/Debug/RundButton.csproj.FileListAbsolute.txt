@@ -1,0 +1,17 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\bin\Debug\WpfApp1.exe.config
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\bin\Debug\WpfApp1.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\bin\Debug\WpfApp1.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\RundButton.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\RundButton.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\WpfApp1.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\RundButton.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\RundButton.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\WpfApp1.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\WpfApp1.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Rundbutton\WpfApp1\obj\Debug\RundButton.csprojAssemblyReference.cache

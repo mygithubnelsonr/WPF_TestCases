@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyJukeboxModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MyJukeboxEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tSongs" EntityType="MyJukeboxModel.tSong" />
+    <EntitySet Name="vSongs" EntityType="MyJukeboxModel.vSongs" />
+    <EntitySet Name="tPlaylists" EntityType="MyJukeboxModel.tPlaylists" />
+    <EntitySet Name="tPLentries" EntityType="MyJukeboxModel.tPLentries" />
+    <EntitySet Name="vPlaylistSongs" EntityType="MyJukeboxModel.vPlaylistSongs" />
+    <AssociationSet Name="FK_tPLentries_tPlaylists" Association="MyJukeboxModel.FK_tPLentries_tPlaylists">
+      <End Role="tPlaylists" EntitySet="tPlaylists" />
+      <End Role="tPLentries" EntitySet="tPLentries" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tSong">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Album" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Artist" Type="String" MaxLength="126" FixedLength="false" Unicode="true" />
+    <Property Name="Titel" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Pfad" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="156" FixedLength="false" Unicode="true" />
+    <Property Name="ID_Genre" Type="Int32" />
+    <Property Name="ID_Catalog" Type="Int32" />
+    <Property Name="ID_Media" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vSongs">
+    <Key>
+      <PropertyRef Name="Titel" />
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Genre" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Catalog" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Album" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Artist" Type="String" MaxLength="126" FixedLength="false" Unicode="true" />
+    <Property Name="Titel" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Pfad" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="156" FixedLength="false" Unicode="true" />
+    <Property Name="Media" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tPlaylists">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+    <Property Name="Last" Type="Boolean" />
+    <Property Name="Row" Type="Int32" />
+    <NavigationProperty Name="tPLentries" Relationship="MyJukeboxModel.FK_tPLentries_tPlaylists" FromRole="tPlaylists" ToRole="tPLentries" />
+  </EntityType>
+  <EntityType Name="tPLentries">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PLID" Type="Int32" Nullable="false" />
+    <Property Name="SongID" Type="Int32" Nullable="false" />
+    <Property Name="Pos" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tPlaylists" Relationship="MyJukeboxModel.FK_tPLentries_tPlaylists" FromRole="tPLentries" ToRole="tPlaylists" />
+  </EntityType>
+  <EntityType Name="vPlaylistSongs">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Titel" />
+      <PropertyRef Name="PLID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Genre" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Catalog" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Album" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Artist" Type="String" MaxLength="126" FixedLength="false" Unicode="true" />
+    <Property Name="Titel" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Pfad" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="156" FixedLength="false" Unicode="true" />
+    <Property Name="PLID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_tPLentries_tPlaylists">
+    <End Type="MyJukeboxModel.tPlaylists" Role="tPlaylists" Multiplicity="1" />
+    <End Type="MyJukeboxModel.tPLentries" Role="tPLentries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tPlaylists">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tPLentries">
+        <PropertyRef Name="PLID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

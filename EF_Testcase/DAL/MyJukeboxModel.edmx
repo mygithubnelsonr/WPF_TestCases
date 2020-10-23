@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MyJukeboxModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tPlaylists">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="24" />
+          <Property Name="Last" Type="bit" />
+          <Property Name="Row" Type="int" />
+        </EntityType>
+        <EntityType Name="tPLentries">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PLID" Type="int" Nullable="false" />
+          <Property Name="SongID" Type="int" Nullable="false" />
+          <Property Name="Pos" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tSongs">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Album" Type="nvarchar" MaxLength="50" />
+          <Property Name="Artist" Type="nvarchar" MaxLength="126" />
+          <Property Name="Titel" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Pfad" Type="nvarchar" MaxLength="254" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="156" />
+          <Property Name="ID_Genre" Type="int" />
+          <Property Name="ID_Catalog" Type="int" />
+          <Property Name="ID_Media" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'MyJukebox.dbo.vPlaylistSongs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vPlaylistSongs">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Titel" />
+            <PropertyRef Name="PLID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Genre" Type="nvarchar" MaxLength="12" />
+          <Property Name="Catalog" Type="nvarchar" MaxLength="12" />
+          <Property Name="Album" Type="nvarchar" MaxLength="50" />
+          <Property Name="Artist" Type="nvarchar" MaxLength="126" />
+          <Property Name="Titel" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Pfad" Type="nvarchar" MaxLength="254" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="156" />
+          <Property Name="PLID" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vSongs">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Titel" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Genre" Type="nvarchar" MaxLength="12" />
+          <Property Name="Catalog" Type="nvarchar" MaxLength="12" />
+          <Property Name="Album" Type="nvarchar" MaxLength="50" />
+          <Property Name="Artist" Type="nvarchar" MaxLength="126" />
+          <Property Name="Titel" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Pfad" Type="nvarchar" MaxLength="254" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="156" />
+          <Property Name="Media" Type="nvarchar" MaxLength="12" />
+        </EntityType>
+        <Association Name="FK_tPLentries_tPlaylists">
+          <End Role="tPlaylists" Type="Self.tPlaylists" Multiplicity="1" />
+          <End Role="tPLentries" Type="Self.tPLentries" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tPlaylists">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tPLentries">
+              <PropertyRef Name="PLID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MyJukeboxModelStoreContainer">
+          <EntitySet Name="tPlaylists" EntityType="Self.tPlaylists" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tPLentries" EntityType="Self.tPLentries" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tSongs" EntityType="Self.tSongs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="vPlaylistSongs" EntityType="Self.vPlaylistSongs" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vPlaylistSongs].[ID] AS [ID], 
+    [vPlaylistSongs].[Genre] AS [Genre], 
+    [vPlaylistSongs].[Catalog] AS [Catalog], 
+    [vPlaylistSongs].[Album] AS [Album], 
+    [vPlaylistSongs].[Artist] AS [Artist], 
+    [vPlaylistSongs].[Titel] AS [Titel], 
+    [vPlaylistSongs].[Pfad] AS [Pfad], 
+    [vPlaylistSongs].[FileName] AS [FileName], 
+    [vPlaylistSongs].[PLID] AS [PLID]
+    FROM [dbo].[vPlaylistSongs] AS [vPlaylistSongs]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vSongs" EntityType="Self.vSongs" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vSongs].[ID] AS [ID], 
+    [vSongs].[Genre] AS [Genre], 
+    [vSongs].[Catalog] AS [Catalog], 
+    [vSongs].[Album] AS [Album], 
+    [vSongs].[Artist] AS [Artist], 
+    [vSongs].[Titel] AS [Titel], 
+    [vSongs].[Pfad] AS [Pfad], 
+    [vSongs].[FileName] AS [FileName], 
+    [vSongs].[Media] AS [Media]
+    FROM [dbo].[vSongs] AS [vSongs]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_tPLentries_tPlaylists" Association="Self.FK_tPLentries_tPlaylists">
+            <End Role="tPlaylists" EntitySet="tPlaylists" />
+            <End Role="tPLentries" EntitySet="tPLentries" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MyJukeboxModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="MyJukeboxEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tSongs" EntityType="MyJukeboxModel.tSong" />
+          <EntitySet Name="vSongs" EntityType="MyJukeboxModel.vSongs" />
+          <EntitySet Name="tPlaylists" EntityType="MyJukeboxModel.tPlaylists" />
+          <EntitySet Name="tPLentries" EntityType="MyJukeboxModel.tPLentries" />
+          <EntitySet Name="vPlaylistSongs" EntityType="MyJukeboxModel.vPlaylistSongs" />
+          <AssociationSet Name="FK_tPLentries_tPlaylists" Association="MyJukeboxModel.FK_tPLentries_tPlaylists">
+            <End Role="tPlaylists" EntitySet="tPlaylists" />
+            <End Role="tPLentries" EntitySet="tPLentries" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="tSong">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Album" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Artist" Type="String" MaxLength="126" FixedLength="false" Unicode="true" />
+          <Property Name="Titel" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Pfad" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+          <Property Name="FileName" Type="String" MaxLength="156" FixedLength="false" Unicode="true" />
+          <Property Name="ID_Genre" Type="Int32" />
+          <Property Name="ID_Catalog" Type="Int32" />
+          <Property Name="ID_Media" Type="Int32" />
+        </EntityType>
+        <EntityType Name="vSongs">
+          <Key>
+            <PropertyRef Name="Titel" />
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Genre" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="Catalog" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="Album" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Artist" Type="String" MaxLength="126" FixedLength="false" Unicode="true" />
+          <Property Name="Titel" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Pfad" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+          <Property Name="FileName" Type="String" MaxLength="156" FixedLength="false" Unicode="true" />
+          <Property Name="Media" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="tPlaylists">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="Last" Type="Boolean" />
+          <Property Name="Row" Type="Int32" />
+          <NavigationProperty Name="tPLentries" Relationship="MyJukeboxModel.FK_tPLentries_tPlaylists" FromRole="tPlaylists" ToRole="tPLentries" />
+        </EntityType>
+        <EntityType Name="tPLentries">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PLID" Type="Int32" Nullable="false" />
+          <Property Name="SongID" Type="Int32" Nullable="false" />
+          <Property Name="Pos" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="tPlaylists" Relationship="MyJukeboxModel.FK_tPLentries_tPlaylists" FromRole="tPLentries" ToRole="tPlaylists" />
+        </EntityType>
+        <EntityType Name="vPlaylistSongs">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Titel" />
+            <PropertyRef Name="PLID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Genre" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="Catalog" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="Album" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Artist" Type="String" MaxLength="126" FixedLength="false" Unicode="true" />
+          <Property Name="Titel" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Pfad" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+          <Property Name="FileName" Type="String" MaxLength="156" FixedLength="false" Unicode="true" />
+          <Property Name="PLID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_tPLentries_tPlaylists">
+          <End Type="MyJukeboxModel.tPlaylists" Role="tPlaylists" Multiplicity="1" />
+          <End Type="MyJukeboxModel.tPLentries" Role="tPLentries" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tPlaylists">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tPLentries">
+              <PropertyRef Name="PLID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MyJukeboxModelStoreContainer" CdmEntityContainer="MyJukeboxEntities">
+          <EntitySetMapping Name="tSongs">
+            <EntityTypeMapping TypeName="MyJukeboxModel.tSong">
+              <MappingFragment StoreEntitySet="tSongs">
+                <ScalarProperty Name="ID_Media" ColumnName="ID_Media" />
+                <ScalarProperty Name="ID_Catalog" ColumnName="ID_Catalog" />
+                <ScalarProperty Name="ID_Genre" ColumnName="ID_Genre" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="Pfad" ColumnName="Pfad" />
+                <ScalarProperty Name="Titel" ColumnName="Titel" />
+                <ScalarProperty Name="Artist" ColumnName="Artist" />
+                <ScalarProperty Name="Album" ColumnName="Album" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vSongs">
+            <EntityTypeMapping TypeName="MyJukeboxModel.vSongs">
+              <MappingFragment StoreEntitySet="vSongs">
+                <ScalarProperty Name="Media" ColumnName="Media" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="Pfad" ColumnName="Pfad" />
+                <ScalarProperty Name="Titel" ColumnName="Titel" />
+                <ScalarProperty Name="Artist" ColumnName="Artist" />
+                <ScalarProperty Name="Album" ColumnName="Album" />
+                <ScalarProperty Name="Catalog" ColumnName="Catalog" />
+                <ScalarProperty Name="Genre" ColumnName="Genre" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tPlaylists">
+            <EntityTypeMapping TypeName="MyJukeboxModel.tPlaylists">
+              <MappingFragment StoreEntitySet="tPlaylists">
+                <ScalarProperty Name="Row" ColumnName="Row" />
+                <ScalarProperty Name="Last" ColumnName="Last" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tPLentries">
+            <EntityTypeMapping TypeName="MyJukeboxModel.tPLentries">
+              <MappingFragment StoreEntitySet="tPLentries">
+                <ScalarProperty Name="Pos" ColumnName="Pos" />
+                <ScalarProperty Name="SongID" ColumnName="SongID" />
+                <ScalarProperty Name="PLID" ColumnName="PLID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vPlaylistSongs">
+            <EntityTypeMapping TypeName="MyJukeboxModel.vPlaylistSongs">
+              <MappingFragment StoreEntitySet="vPlaylistSongs">
+                <ScalarProperty Name="PLID" ColumnName="PLID" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="Pfad" ColumnName="Pfad" />
+                <ScalarProperty Name="Titel" ColumnName="Titel" />
+                <ScalarProperty Name="Artist" ColumnName="Artist" />
+                <ScalarProperty Name="Album" ColumnName="Album" />
+                <ScalarProperty Name="Catalog" ColumnName="Catalog" />
+                <ScalarProperty Name="Genre" ColumnName="Genre" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

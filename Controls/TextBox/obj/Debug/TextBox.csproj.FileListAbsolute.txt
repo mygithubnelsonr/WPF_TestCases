@@ -1,0 +1,15 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\bin\Debug\TextBox.exe.config
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\bin\Debug\TextBox.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\bin\Debug\TextBox.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox.Properties.Resources.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\TextBox\obj\Debug\TextBox.csprojAssemblyReference.cache

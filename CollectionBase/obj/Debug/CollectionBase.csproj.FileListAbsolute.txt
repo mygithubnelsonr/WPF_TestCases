@@ -1,0 +1,5 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\CollectionBase\obj\Debug\CollectionBase.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\CollectionBase\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\CollectionBase\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\CollectionBase\obj\Debug\CollectionBase_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\CollectionBase\obj\Debug\CollectionBase_MarkupCompile.lref
