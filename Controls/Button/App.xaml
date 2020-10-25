@@ -226,18 +226,35 @@
         <DataTemplate x:Key="buttonPressed">
             <Image Source="SpeakerOff.png"/>
         </DataTemplate>
-
+        <DataTemplate x:Key="touggleButtonIsChecked">
+            <Image Source="SpeakerOn.png"/>
+        </DataTemplate>
+        <DataTemplate x:Key="touggleButtonIsNotChecked">
+            <Image Source="SpeakerOff.png"/>
+        </DataTemplate>
+        <!--Style für ImageButton-->
         <Style x:Key="simpleImageButton" TargetType="Button">
             <Setter Property="Width" Value="32"/>
             <Setter Property="Height" Value="32"/>
             <Setter Property="Margin" Value="4"/>
-            <Setter Property="ContentTemplate" Value="{StaticResource Unpressed}"/>
+            <Setter Property="ContentTemplate" Value="{StaticResource buttonUnpressed}"/>
             <Style.Triggers>
                 <Trigger Property="IsPressed" Value="True">
-                    <Setter Property="ContentTemplate" Value="{StaticResource Pressed}"/>
+                    <Setter Property="ContentTemplate" Value="{StaticResource buttonPressed}"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
-
+        <!--Style für ImageTougleButton-->
+        <Style x:Key="simpleImageTouggleButton" TargetType="ToggleButton">
+            <Setter Property="Width" Value="32"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="ContentTemplate" Value="{StaticResource touggleButtonIsChecked}"/>
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="ContentTemplate" Value="{StaticResource touggleButtonIsNotChecked}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Application.Resources>
 </Application>

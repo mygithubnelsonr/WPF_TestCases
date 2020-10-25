@@ -48,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingCollectionBase", "Usin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ Samples", "LINQ Samples\LINQ Samples.csproj", "{0A75445E-F2DD-474C-B8AB-32A687375A66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationExample", "WpfValidationExample\WpfValidationExample\ValidationExample.csproj", "{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -214,6 +216,14 @@ Global
 		{0A75445E-F2DD-474C-B8AB-32A687375A66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0A75445E-F2DD-474C-B8AB-32A687375A66}.Release|x86.ActiveCfg = Release|Any CPU
 		{0A75445E-F2DD-474C-B8AB-32A687375A66}.Release|x86.Build.0 = Release|Any CPU
+		{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}.Debug|x86.Build.0 = Debug|Any CPU
+		{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}.Release|x86.ActiveCfg = Release|Any CPU
+		{8E59C9E5-655E-439F-A98A-2AF8C9B5565C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
