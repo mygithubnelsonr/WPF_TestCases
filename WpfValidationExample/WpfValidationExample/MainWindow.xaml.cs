@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 
-
 namespace WpfValidationExample
 {
     /// <summary>
@@ -11,13 +10,6 @@ namespace WpfValidationExample
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void ButtonPropertyTrigger_Click(object sender, RoutedEventArgs e)
-        {
-            PropertyTrigger.Dialog dialog = new PropertyTrigger.Dialog();
-            dialog.Owner = this;
-            dialog.ShowDialog();
         }
 
         private void ButtonValidationWithException_Click(object sender, RoutedEventArgs e)

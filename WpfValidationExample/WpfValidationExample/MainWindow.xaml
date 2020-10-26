@@ -5,18 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfValidationExample"
         mc:Ignorable="d"
-        Title="MainWindow" Height="202" Width="329" WindowStartupLocation="CenterScreen">
+        Title="Switchboard Valitation" Height="232" Width="300" Background="#FF096292" WindowStartupLocation="CenterScreen">
 
-    <WrapPanel Orientation="Vertical" Margin="20" HorizontalAlignment="Center">
-
-        <Button x:Name="ButtonPropertyTrigger" Margin="5"
-                Content="Property Trigger"
-                Click="ButtonPropertyTrigger_Click"/>
-
-        <Button x:Name="ButtonValidationWithException"
+    <WrapPanel Orientation="Vertical" Margin="20" Background="#FF074263" HorizontalAlignment="Center">
+        <Button x:Name="ButtonValidationWithException" Margin="5"
                 Click="ButtonValidationWithException_Click"
-                Content="Validation with Exception and Tooltip"
-                Margin="5"/>
+                Content="Validation with Exception and Tooltip"/>
 
         <Button x:Name="ButtonValidationRule"
                 Click="ButtonValidationRule_Click"

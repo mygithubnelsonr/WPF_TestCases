@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfValidationExample\WpfValidationExample\App.xaml
-51015742317
+4379925204
 
-11836646157
+10767620111
 13-1505183044
-MainWindow.xaml;PropertyTrigger\Dialog.xaml;ValidateWIthException\Dialog.xaml;ValidateWithIDataErrorInfo\Dialog.xaml;ValidateWithValidationRule\Dialog.xaml;
+MainWindow.xaml;ValidateWIthException\Dialog.xaml;ValidateWithIDataErrorInfo\Dialog.xaml;ValidateWithValidationRule\Dialog.xaml;
 
-True
+False
 

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Triggers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Triggers"
+        mc:Ignorable="d"
+        Title="Switchboard Triggers" Height="232" Width="300" Background="#FF096292" WindowStartupLocation="CenterScreen">
+    <WrapPanel Orientation="Vertical" Margin="20" Background="#FF074263" HorizontalAlignment="Center" Width="220">
+        <Button x:Name="ButtonPropertyTrigger" Width="200" Margin="10"
+                Content="Property Trigger"
+                Click="ButtonPropertyTrigger_Click"/>
+        
+        <Button x:Name="ButtonDataTriggers" Width="200" Margin="10"
+                Content="Data Triggers"
+                Click="ButtonDataTriggers_Click"/>
+
+        <Button x:Name="ButtonEventTriggers" Width="200" Margin="10"
+                Content="Event Triggers"
+                Click="ButtonEventTriggers_Click"/>
+    </WrapPanel>
+</Window>

@@ -22,3 +22,5 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfValidationExample\WpfValidationExamp
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfValidationExample\WpfValidationExample\obj\Debug\WpfValidationExample.pdb
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfValidationExample\WpfValidationExample\obj\Debug\PropertyTrigger\Dialog.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfValidationExample\WpfValidationExample\obj\Debug\PropertyTrigger\Dialog.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfValidationExample\WpfValidationExample\obj\Debug\DataTriggers\Dialog.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfValidationExample\WpfValidationExample\obj\Debug\DataTriggers\Dialog.baml
