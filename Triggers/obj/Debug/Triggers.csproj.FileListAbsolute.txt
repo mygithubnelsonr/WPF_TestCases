@@ -18,3 +18,6 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\Triggers\obj\Debug\Triggers.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Triggers\obj\Debug\Triggers.pdb
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Triggers\obj\Debug\EventTriggers\Dialog.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Triggers\obj\Debug\EventTriggers\Dialog.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Triggers\obj\Debug\Triggers.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Triggers\obj\Debug\EventTriggers\MicrosoftExample.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Triggers\obj\Debug\EventTriggers\MicrosoftExample.baml

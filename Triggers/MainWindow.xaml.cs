@@ -32,5 +32,12 @@ namespace Triggers
             dialog.Owner = this;
             dialog.ShowDialog();
         }
+
+        private void ButtonEventTriggers2_Click(object sender, RoutedEventArgs e)
+        {
+            EventTriggers.MicrosoftExample dialog = new EventTriggers.MicrosoftExample();
+            dialog.Owner = this;
+            dialog.ShowDialog();
+        }
     }
 }

@@ -21,6 +21,17 @@ namespace EF_Testcase.BLL
 
         #region GetData
 
+        public static List<string> GetGenres()
+        {
+            List<string> genres = null;
+            using (var context = new MyJukeboxEntities())
+            {
+                genres = context.tGenres.Select(g => g.Name).ToList();
+
+                return genres;
+            }
+        }
+
         public static List<SongList> GetSongs2(string catalog, string album)
         {
 

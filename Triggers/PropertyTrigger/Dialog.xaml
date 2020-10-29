@@ -5,19 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Triggers.PropertyTrigger"
         mc:Ignorable="d"
-        Title="Dialog" Height="250" Width="400" WindowStartupLocation="CenterOwner">
+        Title="Dialog PropertyTriggers" Height="232" Width="300" Background="#FF096292" WindowStartupLocation="CenterOwner">
     <Window.Resources>
         <Style x:Key = "TriggerStyle" TargetType = "Button">
             <Setter Property = "Foreground" Value = "Blue" />
+            <Setter Property="Background" Value="#FF6A84C9"/>
             <Style.Triggers>
                 <Trigger Property = "IsMouseOver" Value = "True">
                     <Setter Property = "Foreground" Value = "Green" />
                     <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Background" Value="Yellow"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
     </Window.Resources>
-    <Grid>
+    <Grid Margin="20" Background="#FF094E92">
         <Button Width = "100" Height = "70"
          Style = "{StaticResource TriggerStyle}" Content = "Trigger"/>
     </Grid>

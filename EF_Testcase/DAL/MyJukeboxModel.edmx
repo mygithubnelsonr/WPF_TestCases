@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
   <!-- EF Runtime content -->
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="MyJukeboxModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tGenres">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="12" />
+        </EntityType>
         <EntityType Name="tPlaylists">
           <Key>
             <PropertyRef Name="ID" />
@@ -84,7 +91,20 @@ warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key 
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_tSongsNew_tGenres">
+          <End Role="tGenres" Type="Self.tGenres" Multiplicity="0..1" />
+          <End Role="tSongs" Type="Self.tSongs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tGenres">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tSongs">
+              <PropertyRef Name="ID_Genre" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="MyJukeboxModelStoreContainer">
+          <EntitySet Name="tGenres" EntityType="Self.tGenres" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tPlaylists" EntityType="Self.tPlaylists" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tPLentries" EntityType="Self.tPLentries" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tSongs" EntityType="Self.tSongs" Schema="dbo" store:Type="Tables" />
@@ -118,6 +138,10 @@ warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key 
             <End Role="tPlaylists" EntitySet="tPlaylists" />
             <End Role="tPLentries" EntitySet="tPLentries" />
           </AssociationSet>
+          <AssociationSet Name="FK_tSongsNew_tGenres" Association="Self.FK_tSongsNew_tGenres">
+            <End Role="tGenres" EntitySet="tGenres" />
+            <End Role="tSongs" EntitySet="tSongs" />
+          </AssociationSet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -133,6 +157,11 @@ warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key 
             <End Role="tPlaylists" EntitySet="tPlaylists" />
             <End Role="tPLentries" EntitySet="tPLentries" />
           </AssociationSet>
+          <EntitySet Name="tGenres" EntityType="MyJukeboxModel.tGenres" />
+          <AssociationSet Name="FK_tSongsNew_tGenres" Association="MyJukeboxModel.FK_tSongsNew_tGenres">
+            <End Role="tGenres" EntitySet="tGenres" />
+            <End Role="tSong" EntitySet="tSongs" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="tSong">
           <Key>
@@ -147,6 +176,7 @@ warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key 
           <Property Name="ID_Genre" Type="Int32" />
           <Property Name="ID_Catalog" Type="Int32" />
           <Property Name="ID_Media" Type="Int32" />
+          <NavigationProperty Name="tGenres" Relationship="MyJukeboxModel.FK_tSongsNew_tGenres" FromRole="tSong" ToRole="tGenres" />
         </EntityType>
         <EntityType Name="vSongs">
           <Key>
@@ -208,6 +238,26 @@ warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key 
             </Principal>
             <Dependent Role="tPLentries">
               <PropertyRef Name="PLID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="tGenres">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="tSongs" Relationship="MyJukeboxModel.FK_tSongsNew_tGenres" FromRole="tGenres" ToRole="tSong" />
+        </EntityType>
+        <Association Name="FK_tSongsNew_tGenres">
+          <End Type="MyJukeboxModel.tGenres" Role="tGenres" Multiplicity="0..1" />
+          <End Type="MyJukeboxModel.tSong" Role="tSong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tGenres">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tSong">
+              <PropertyRef Name="ID_Genre" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -278,6 +328,14 @@ warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key 
                 <ScalarProperty Name="Album" ColumnName="Album" />
                 <ScalarProperty Name="Catalog" ColumnName="Catalog" />
                 <ScalarProperty Name="Genre" ColumnName="Genre" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tGenres">
+            <EntityTypeMapping TypeName="MyJukeboxModel.tGenres">
+              <MappingFragment StoreEntitySet="tGenres">
+                <ScalarProperty Name="Name" ColumnName="Name" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>

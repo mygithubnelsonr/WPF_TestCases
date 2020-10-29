@@ -43,7 +43,7 @@ namespace WpfValidationExample.ValidateWIthException
         {
             if (value.Length < 5)
             {
-                throw new ArgumentException("Username must be length > 5.");
+                //throw new ArgumentException("Username must be length > 5.");
             }
         }
 

@@ -15,11 +15,11 @@
         <Button x:Name="ButtonValidationRule"
                 Click="ButtonValidationRule_Click"
                 Content="Validation with ValidationRule and template"
-                Margin="5"></Button>
-            
+                Margin="5"/>
+
         <Button x:Name="ButtonValidationIDataErrorInfo"
                 Click="ButtonValidationIDataErrorInfo_Click"
                 Content="Validation with IDataErrorInfo"
-                Margin="5"></Button>
+                Margin="5"/>
     </WrapPanel>
 </Window>

@@ -21,3 +21,5 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\EF_Testcase\obj\Debug\EF_Testcase.cspro
 A:\Source\Repos\90_Work\WPF\WpfTestCases\EF_Testcase\obj\Debug\App.baml
 A:\Source\Repos\90_Work\WPF\WpfTestCases\EF_Testcase\obj\Debug\GeneratedInternalTypeHelper.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\EF_Testcase\obj\Debug\EF_Testcase.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\EF_Testcase\obj\Debug\Settings.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\EF_Testcase\obj\Debug\Settings.baml

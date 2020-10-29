@@ -1,6 +1,7 @@
 ﻿using EF_Testcase.BLL;
 using EF_Testcase.DAL;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
@@ -414,19 +415,8 @@ namespace EF_Testcase
 
         private void MenuItemTools_Click(object sender, RoutedEventArgs e)
         {
-            DataGetSet.Datasource = DataGetSet.DataSourceEnum.Playlist;
-
-            _dataLoaded = false;
-
-            FillDatagridByTabPlaylist(4);
-            _dataLoaded = true;
-
-            if (datagrid.Items.Count > 0)
-            {
-                datagrid.SelectedIndex = 1;
-                datagrid.ScrollIntoView(datagrid.SelectedItem);
-            }
-            datagrid.Focus();
+            List<string> genres = GenreList.Instance.Get();
+            Debug.Print($"{genres.Count}");
         }
 
         private bool hasDataGridErrors()
@@ -439,6 +429,12 @@ namespace EF_Testcase
                 return true;
             else
                 return false;
+        }
+
+        private void MenuItemSetting_Click(object sender, RoutedEventArgs e)
+        {
+            Settings settings = new Settings();
+            settings.ShowDialog();
         }
     }
 }

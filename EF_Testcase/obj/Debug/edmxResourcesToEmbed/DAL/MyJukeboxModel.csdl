@@ -10,6 +10,11 @@
       <End Role="tPlaylists" EntitySet="tPlaylists" />
       <End Role="tPLentries" EntitySet="tPLentries" />
     </AssociationSet>
+    <EntitySet Name="tGenres" EntityType="MyJukeboxModel.tGenres" />
+    <AssociationSet Name="FK_tSongsNew_tGenres" Association="MyJukeboxModel.FK_tSongsNew_tGenres">
+      <End Role="tGenres" EntitySet="tGenres" />
+      <End Role="tSong" EntitySet="tSongs" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="tSong">
     <Key>
@@ -24,6 +29,7 @@
     <Property Name="ID_Genre" Type="Int32" />
     <Property Name="ID_Catalog" Type="Int32" />
     <Property Name="ID_Media" Type="Int32" />
+    <NavigationProperty Name="tGenres" Relationship="MyJukeboxModel.FK_tSongsNew_tGenres" FromRole="tSong" ToRole="tGenres" />
   </EntityType>
   <EntityType Name="vSongs">
     <Key>
@@ -85,6 +91,26 @@
       </Principal>
       <Dependent Role="tPLentries">
         <PropertyRef Name="PLID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tGenres">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tSongs" Relationship="MyJukeboxModel.FK_tSongsNew_tGenres" FromRole="tGenres" ToRole="tSong" />
+  </EntityType>
+  <Association Name="FK_tSongsNew_tGenres">
+    <End Type="MyJukeboxModel.tGenres" Role="tGenres" Multiplicity="0..1" />
+    <End Type="MyJukeboxModel.tSong" Role="tSong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tGenres">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tSong">
+        <PropertyRef Name="ID_Genre" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

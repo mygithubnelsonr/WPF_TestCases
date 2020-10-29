@@ -79,6 +79,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MyJukeboxModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DAL\tGenres.cs">
+      <DependentUpon>MyJukeboxModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="DAL\tPlaylists.cs">
       <DependentUpon>MyJukeboxModel.tt</DependentUpon>
     </Compile>
@@ -95,6 +98,10 @@
       <DependentUpon>MyJukeboxModel.tt</DependentUpon>
     </Compile>
     <Compile Include="FileExistValidationRule.cs" />
+    <Compile Include="BLL\GenreList.cs" />
+    <Compile Include="Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -107,6 +114,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\MyJukeboxModel.Context.cs">

@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="MyJukeboxModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tGenres">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="12" />
+  </EntityType>
   <EntityType Name="tPlaylists">
     <Key>
       <PropertyRef Name="ID" />
@@ -79,7 +86,20 @@ warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key 
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_tSongsNew_tGenres">
+    <End Role="tGenres" Type="Self.tGenres" Multiplicity="0..1" />
+    <End Role="tSongs" Type="Self.tSongs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tGenres">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tSongs">
+        <PropertyRef Name="ID_Genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="MyJukeboxModelStoreContainer">
+    <EntitySet Name="tGenres" EntityType="Self.tGenres" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tPlaylists" EntityType="Self.tPlaylists" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tPLentries" EntityType="Self.tPLentries" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tSongs" EntityType="Self.tSongs" Schema="dbo" store:Type="Tables" />
@@ -112,6 +132,10 @@ warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key 
     <AssociationSet Name="FK_tPLentries_tPlaylists" Association="Self.FK_tPLentries_tPlaylists">
       <End Role="tPlaylists" EntitySet="tPlaylists" />
       <End Role="tPLentries" EntitySet="tPLentries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tSongsNew_tGenres" Association="Self.FK_tSongsNew_tGenres">
+      <End Role="tGenres" EntitySet="tGenres" />
+      <End Role="tSongs" EntitySet="tSongs" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

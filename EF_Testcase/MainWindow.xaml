@@ -68,7 +68,8 @@
                     <Image Source="Images/genre.png" Width="22" Height="22" Margin="0 0 2 0" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Settings" Margin="2 2" IsCheckable="true" Background="Transparent" Foreground="Orange" FontSize="16">
+            <MenuItem Header="Settings" Margin="2 2" IsCheckable="true" Background="Transparent" Foreground="Orange" FontSize="16"
+                      Click="MenuItemSetting_Click">
                 <MenuItem.Icon>
                     <Image Source="images/copy.png" Width="20" Height="20" />
                 </MenuItem.Icon>

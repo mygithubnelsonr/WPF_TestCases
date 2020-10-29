@@ -12,18 +12,18 @@ namespace EF_Testcase.DAL
     using System;
     using System.Collections.Generic;
     
-    public partial class tSong
+    public partial class tGenres
     {
-        public int ID { get; set; }
-        public string Album { get; set; }
-        public string Artist { get; set; }
-        public string Titel { get; set; }
-        public string Pfad { get; set; }
-        public string FileName { get; set; }
-        public Nullable<int> ID_Genre { get; set; }
-        public Nullable<int> ID_Catalog { get; set; }
-        public Nullable<int> ID_Media { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tGenres()
+        {
+            this.tSongs = new HashSet<tSong>();
+        }
     
-        public virtual tGenres tGenres { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tSong> tSongs { get; set; }
     }
 }

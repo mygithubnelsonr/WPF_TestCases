@@ -30,5 +30,6 @@ namespace EF_Testcase.DAL
         public virtual DbSet<tPlaylists> tPlaylists { get; set; }
         public virtual DbSet<tPLentries> tPLentries { get; set; }
         public virtual DbSet<vPlaylistSongs> vPlaylistSongs { get; set; }
+        public virtual DbSet<tGenres> tGenres { get; set; }
     }
 }

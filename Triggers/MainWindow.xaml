@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Triggers"
         mc:Ignorable="d"
-        Title="Switchboard Triggers" Height="232" Width="300" Background="#FF096292" WindowStartupLocation="CenterScreen">
+        Title="Switchboard Triggers" Height="252" Width="300" Background="#FF096292" WindowStartupLocation="CenterScreen">
     <WrapPanel Orientation="Vertical" Margin="20" Background="#FF074263" HorizontalAlignment="Center" Width="220">
         <Button x:Name="ButtonPropertyTrigger" Width="200" Margin="10"
                 Content="Property Trigger"
@@ -18,5 +18,9 @@
         <Button x:Name="ButtonEventTriggers" Width="200" Margin="10"
                 Content="Event Triggers"
                 Click="ButtonEventTriggers_Click"/>
+
+        <Button x:Name="ButtonEventTriggers2" Width="200" Margin="10"
+                Content="Microsoft Example"
+                Click="ButtonEventTriggers2_Click"/>
     </WrapPanel>
 </Window>

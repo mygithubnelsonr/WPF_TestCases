@@ -17,7 +17,8 @@
                          Width="10"
                          Height="10"
                          ToolTip="{Binding Path=/ErrorContent}"
-                         Margin="5"></Ellipse>
+                         Margin="5">
+                </Ellipse>
             </StackPanel>
         </ControlTemplate>
     </Window.Resources>
@@ -47,12 +48,12 @@
                     Click="ButtonOK_Click"
                     x:Name="ButtonOK"
                     MinWidth="100"
-                    IsDefault="True"></Button>
+                    IsDefault="True"/>
             <Button Content="Cancel"
                     x:Name="ButtonCancel"
                     MinWidth="100"
                     Margin="10,0,0,0"
-                    IsCancel="True"></Button>
+                    IsCancel="True"/>
         </StackPanel>
     </StackPanel>
 </Window>
