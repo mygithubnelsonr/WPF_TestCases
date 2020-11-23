@@ -1,0 +1,15 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\bin\Debug\RenamerLog.exe.config
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\bin\Debug\RenamerLog.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\bin\Debug\RenamerLog.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.Properties.Resources.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.csprojAssemblyReference.cache

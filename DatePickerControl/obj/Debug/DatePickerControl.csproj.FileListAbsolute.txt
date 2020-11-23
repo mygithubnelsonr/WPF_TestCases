@@ -1,0 +1,15 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\DatePickerControl_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\DatePickerControl_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\bin\Debug\DatePickerControl.exe.config
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\bin\Debug\DatePickerControl.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\bin\Debug\DatePickerControl.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\App.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\DatePickerControl.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\DatePickerControl.Properties.Resources.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\DatePickerControl.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\DatePickerControl.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\DatePickerControl.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePickerControl\obj\Debug\DatePickerControl.pdb

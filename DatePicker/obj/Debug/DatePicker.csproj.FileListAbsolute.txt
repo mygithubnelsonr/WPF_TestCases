@@ -1,0 +1,5 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePicker\obj\Debug\DatePicker.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePicker\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePicker\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePicker\obj\Debug\DatePicker_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\DatePicker\obj\Debug\DatePicker_MarkupCompile.lref

@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Temp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="262" Width="549" WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Vertical" Background="#FFA1C3C3">
+        <StackPanel Orientation="Horizontal" Height="50" Background="Blue" HorizontalAlignment="Right">
+            <ToggleButton x:Name="buttonMaximize" Margin="20 0 10 0" Background="#FF5D00FF" Style="{StaticResource maxButton}">
+                <Rectangle x:Name="rectangle" Width="20" Height="20" Stroke="WhiteSmoke" StrokeThickness="4" Style="{StaticResource rectangel}"/>
+            </ToggleButton>
+            <Button x:Name="buttonMinimize" Margin="10 0" Background="#FF5D00FF" Style="{StaticResource minimizeButton}">
+                <Button.Content>
+                    <Rectangle Width="20" Height="6" Fill="White"/>
+                </Button.Content>
+            </Button>
+            <Button Content="X" Background="#FF5D00FF" Margin="10 0 20 0" Style="{StaticResource exitButton}"/>
+        </StackPanel>
+    </StackPanel>
 </Window>
