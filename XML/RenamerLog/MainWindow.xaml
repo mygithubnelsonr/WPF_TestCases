@@ -5,64 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RenamerLog"
         mc:Ignorable="d"
-        Title="MainWindow" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" FontWeight="Normal"
-            Loaded="Window_Loaded" Width="269">
-    <Window.Resources>
-
-    </Window.Resources>
-    <Grid Margin="10">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="22"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical"
-                    Background="LightBlue" HorizontalAlignment="Center">
-            <TextBlock Text="List of renames" Margin="4 0" FontWeight="Bold" HorizontalAlignment="Center"/>
-        </StackPanel>
-        <ListBox Grid.Row="1" Grid.Column="0" x:Name="listboxDates" Background="Beige"
-                 SelectionChanged="listboxDates_SelectionChanged">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" Margin="0 -4">
-                        <Label Content="{Binding Path=ID}" FontWeight="Bold" HorizontalAlignment="Center"/>
-                        <Label Content="{Binding Path=Date}" FontWeight="Bold" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical"
-                    Background="LightBlue" HorizontalAlignment="Center">
-            <TextBlock Text="List of titles" Margin="4 0" FontWeight="Bold" HorizontalAlignment="Center"/>
-        </StackPanel>
-        <ListBox Grid.Row="1" Grid.Column="1" x:Name="listboxTitles" Background="Beige">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" Margin="0 -4">
-                        <Label Content="{Binding Path=ID}"    FontWeight="Normal"/>
-                        <Label Content="{Binding Path=Title}" FontWeight="Normal"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-
-        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical"
-                    Background="LightBlue" HorizontalAlignment="Center">
-            <TextBlock Text="List of files" Margin="4 0" FontWeight="Bold" HorizontalAlignment="Center"/>
-        </StackPanel>
-        <ListBox Grid.Row="1" Grid.Column="2" x:Name="listboxFiles" Background="Beige">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" Margin="0 -4">
-                        <Label Content="{Binding Path=ID}"    FontWeight="Normal"/>
-                        <Label Content="{Binding Path=Name}" FontWeight="Normal"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
+        Title="MainWindow" Height="250" Width="400" WindowStartupLocation="CenterScreen" Background="#FF2A3632">
+    <Grid Margin="20" Background="#FF5E766E">
+        <Button x:Name="openDialog" Content="Show Dialog" Width="80" Height="40"
+                Click="openDialog_Click"/>
     </Grid>
 </Window>

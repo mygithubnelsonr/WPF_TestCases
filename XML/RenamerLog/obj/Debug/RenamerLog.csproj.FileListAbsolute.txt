@@ -12,4 +12,6 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.csp
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\Renames.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\Renames.baml
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\RenamerLog\obj\Debug\RenamerLog.csprojAssemblyReference.cache

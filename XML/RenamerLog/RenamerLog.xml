@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Log>
+	<Rename id="1">
+        <Date>2020-11-20 18:18:18</Date>
+        <Titles>
+            <Title id="01">
+                <entry>tony carey - we wanna live</entry>
+            </Title>
+            <Title id="02">
+                <entry>tony carey - she moves like a dancer</entry>
+            </Title>
+            <Title id="03">
+                <entry>tony carey - live wire</entry>
+            </Title>
+            <Title id="04">
+				<entry>tony carey - 10.000 times</entry>
+			</Title>
+            <Title id="05">
+				<entry>tony carey - tear down the walls</entry>
+			</Title>
+            <Title id="06">
+				<entry>tony carey - blue highway</entry>
+            </Title>
+            <Title id="07">
+				<entry>tony carey - love don't bother me</entry>
+            </Title>
+            <Title id="08">
+				<entry>tony carey - katy be mine</entry>
+            </Title>                        
+        </Titles>
+		<Files>
+			<File id="01">
+				<entry>Track-01.mp3</entry>
+			</File>
+			<File id="02">
+				<entry>Track-02.mp3</entry>
+			</File>
+			<File id="03">
+				<entry>Track-03.mp3</entry>
+			</File>
+			<File id="04">
+				<entry>Track-04.mp3</entry>
+			</File>
+			<File id="05">
+				<entry>Track-05.mp3</entry>
+			</File>
+			<File id="06">
+				<entry>Track-06.mp3</entry>
+			</File>
+			<File id="07">
+				<entry>Track-07.mp3</entry>
+			</File>
+			<File id="08">
+				<entry>Track-08.mp3</entry>
+			</File>
+		</Files>
+    </Rename>
+	<Rename id="2">
+        <Date>2020-11-21 19:19:19</Date>
+        <Titles>
+            <Title id="01">
+                <entry>Clay Walker - A Couwboy's Toughest Ride</entry>
+            </Title>
+            <Title id="02">
+                <entry>Clay Walker - Bury The Shovel</entry>
+            </Title>
+            <Title id="03">
+                <entry>Clay Walker - Hand Me Down Heart</entry>
+            </Title>
+            <Title id="04">
+				<entry>Clay Walker - Hypnotize The Moon</entry>
+			</Title>
+            <Title id="05">
+				<entry>Clay Walker - I Won't Have The Heart</entry>
+			</Title>
+            <Title id="06">
+				<entry>Clay Walker - Let Me Take The Heartache</entry>
+            </Title>
+            <Title id="07">
+				<entry>Clay Walker - Love Me Like You Love Me</entry>
+            </Title>
+            <Title id="08">
+				<entry>Clay Walker - Loving You Comes Naturally To Me</entry>
+            </Title>
+            <Title id="09">
+				<entry>Clay Walker - Only On Days That End In 'Y'</entry>
+            </Title>            
+            <Title id="10">
+				<entry>Clay Walker - Where Were You</entry>
+            </Title>            
+            <Title id="11">
+				<entry>Clay Walker - Who Needs You Baby</entry>
+            </Title>                                    
+        </Titles>
+		<Files>
+			<File id="01">
+				<entry>Track-01.mp3</entry>
+			</File>
+			<File id="02">
+				<entry>Track-02.mp3</entry>
+			</File>
+			<File id="03">
+				<entry>Track-03.mp3</entry>
+			</File>
+			<File id="04">
+				<entry>Track-04.mp3</entry>
+			</File>
+			<File id="05">
+				<entry>Track-05.mp3</entry>
+			</File>
+			<File id="06">
+				<entry>Track-06.mp3</entry>
+			</File>
+			<File id="07">
+				<entry>Track-07.mp3</entry>
+			</File>
+			<File id="08">
+				<entry>Track-08.mp3</entry>
+			</File>
+		</Files>
+    </Rename>
+	<Rename id="3">
+        <Date>2020-11-22 20:20:20</Date>
+        <Titles>
+            <Title id="01">
+                <entry>tony carey - we wanna live</entry>
+            </Title>
+            <Title id="02">
+                <entry>tony carey - she moves like a dancer</entry>
+            </Title>
+            <Title id="03">
+                <entry>tony carey - live wire</entry>
+            </Title>
+            <Title id="04">
+				<entry>tony carey - 10.000 times</entry>
+			</Title>
+            <Title id="05">
+				<entry>tony carey - tear down the walls</entry>
+			</Title>
+            <Title id="06">
+				<entry>tony carey - blue highway</entry>
+            </Title>
+            <Title id="07">
+				<entry>tony carey - love don't bother me</entry>
+            </Title>
+            <Title id="08">
+				<entry>tony carey - katy be mine</entry>
+            </Title>                        
+        </Titles>
+		<Files>
+			<File id="01">
+				<entry>Track-01.mp3</entry>
+			</File>
+			<File id="02">
+				<entry>Track-02.mp3</entry>
+			</File>
+			<File id="03">
+				<entry>Track-03.mp3</entry>
+			</File>
+			<File id="04">
+				<entry>Track-04.mp3</entry>
+			</File>
+			<File id="05">
+				<entry>Track-05.mp3</entry>
+			</File>
+			<File id="06">
+				<entry>Track-06.mp3</entry>
+			</File>
+			<File id="07">
+				<entry>Track-07.mp3</entry>
+			</File>
+			<File id="08">
+				<entry>Track-08.mp3</entry>
+			</File>
+		</Files>
+    </Rename>
+</Log>
