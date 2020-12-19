@@ -415,8 +415,7 @@ namespace EF_Testcase
 
         private void MenuItemTools_Click(object sender, RoutedEventArgs e)
         {
-            List<string> genres = GenreList.Instance.Get();
-            Debug.Print($"{genres.Count}");
+
         }
 
         private bool hasDataGridErrors()

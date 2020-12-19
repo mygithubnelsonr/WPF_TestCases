@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
+using System.Windows.Controls;
 using System.Xml;
 
 namespace RenamerLog
@@ -28,7 +29,7 @@ namespace RenamerLog
             FillRenameDates();
         }
 
-        private void listboxDates_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        private void listboxDates_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             RenameDate item = (RenameDate)listboxDates.SelectedItem;
             var id = item.ID;
@@ -104,6 +105,7 @@ namespace RenamerLog
                 renameDates.Add(new RenameDate() { ID = id, Date = nod.ChildNodes[0].InnerText });
             }
 
+            listboxDates.Items.Clear();
             listboxDates.ItemsSource = renameDates;
         }
 
@@ -121,7 +123,7 @@ namespace RenamerLog
                 }
             }
 
-            XmlNode titles = GetNode(rename, "Titles");   // rename.ChildNodes[1];
+            XmlNode titles = GetNode(rename, "Titles");
             foreach (XmlNode nod in titles)
             {
                 int _id = Convert.ToInt32(nod.Attributes["id"].Value);
@@ -130,6 +132,8 @@ namespace RenamerLog
             }
 
             RenameTitles = renamesTiles;
+            if (listboxTitles.ItemsSource == null)
+                listboxTitles.Items.Clear();
             listboxTitles.ItemsSource = renamesTiles;
         }
 
@@ -147,13 +151,21 @@ namespace RenamerLog
                 }
             }
 
+            if (rename.ChildNodes[1].Name == "Path")
+                textblockPath2.Text = rename.ChildNodes[1].InnerText;
+            else
+                textblockPath2.Text = "n/a";
+
+            textblockPath1.Height = 22;
+            textblockPath2.Height = 22;
+
             string fid = "";
             XmlNode files = GetNode(rename, "Files");
             foreach (XmlNode nod in files)
             {
-                if ((nod.NodeType == XmlNodeType.Element) && (nod.Name == "File"))
+                if (nod.NodeType == XmlNodeType.Element && nod.Name == "File")
                 {
-                    if (!String.IsNullOrEmpty(nod.Attributes["id"].Value))
+                    if (!string.IsNullOrEmpty(nod.Attributes["id"].Value))
                     {
                         fid = nod.Attributes["id"].Value;
                     }
@@ -164,6 +176,8 @@ namespace RenamerLog
             }
 
             RenamFiles = renameFiles;
+            if (listboxFiles.ItemsSource == null)
+                listboxFiles.Items.Clear();
             listboxFiles.ItemsSource = renameFiles;
         }
 
@@ -183,7 +197,12 @@ namespace RenamerLog
 
         private void buttonSave_Click(object sender, RoutedEventArgs e)
         {
-            this.DialogResult = true;
+            DialogResult = true;
+        }
+
+        private void Window_MouseMove(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            this.DragMove();
         }
     }
 }

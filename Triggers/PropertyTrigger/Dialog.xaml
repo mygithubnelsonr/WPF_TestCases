@@ -7,14 +7,25 @@
         mc:Ignorable="d"
         Title="Dialog PropertyTriggers" Height="232" Width="300" Background="#FF096292" WindowStartupLocation="CenterOwner">
     <Window.Resources>
-        <Style x:Key = "TriggerStyle" TargetType = "Button">
+        <Style x:Key = "TriggerStyle" TargetType = "{x:Type Button}">
             <Setter Property = "Foreground" Value = "Blue" />
             <Setter Property="Background" Value="#FF6A84C9"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
             <Style.Triggers>
                 <Trigger Property = "IsMouseOver" Value = "True">
-                    <Setter Property = "Foreground" Value = "Green" />
+                    <Setter Property = "Foreground" Value = "Black" />
                     <Setter Property="FontWeight" Value="Bold"/>
-                    <Setter Property="Background" Value="Yellow"/>
+                    <Setter Property="Background" Value="Red"/>
                 </Trigger>
             </Style.Triggers>
         </Style>

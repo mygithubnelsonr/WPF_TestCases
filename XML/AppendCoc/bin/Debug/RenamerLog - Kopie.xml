@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Log>
+  <Rename id="1">
+    <Date>2020-11-20 18:18:18</Date>
+    <Titles>
+      <Title id="01">tony carey - we wanna live</Title>
+      <Title id="02">tony carey - she moves like a dancer</Title>
+      <Title id="03">tony carey - live wire</Title>
+      <Title id="04">tony carey - 10.000 times</Title>
+      <Title id="05">tony carey - tear down the walls</Title>
+      <Title id="06">tony carey - blue highway</Title>
+      <Title id="07">tony carey - love don't bother me</Title>
+      <Title id="08">tony carey - katy be mine</Title>
+    </Titles>
+    <Files>
+      <File id="01">Track-01.mp3</File>
+      <File id="02">Track-02.mp3</File>
+      <File id="03">Track-03.mp3</File>
+      <File id="04">Track-04.mp3</File>
+      <File id="05">Track-05.mp3</File>
+      <File id="06">Track-06.mp3</File>
+      <File id="07">Track-07.mp3</File>
+      <File id="08">Track-08.mp3</File>
+    </Files>
+  </Rename>
+  <Rename id="2">
+    <Date>2020-11-21 19:19:19</Date>
+    <Path>\\win2k16dc01\FS012\Country\Detlef\CD\Clay Walker\Hypnotize The Moon</Path>
+    <Titles>
+      <Title id="01">Clay Walker - A Couwboy's Toughest Ride</Title>
+      <Title id="02">Clay Walker - Bury The Shovel</Title>
+      <Title id="03">Clay Walker - Hand Me Down Heart</Title>
+      <Title id="04">Clay Walker - Hypnotize The Moon</Title>
+      <Title id="05">Clay Walker - I Won't Have The Heart</Title>
+      <Title id="06">Clay Walker - Let Me Take The Heartache</Title>
+      <Title id="07">Clay Walker - Love Me Like You Love Me</Title>
+      <Title id="08">Clay Walker - Loving You Comes Naturally To Me</Title>
+      <Title id="09">Clay Walker - Only On Days That End In 'Y'</Title>
+      <Title id="10">Clay Walker - Where Were You</Title>
+      <Title id="11">Clay Walker - Who Needs You Baby</Title>
+    </Titles>
+    <Files>
+      <File id="01">Track-01.mp3</File>
+      <File id="02">Track-02.mp3</File>
+      <File id="03">Track-03.mp3</File>
+      <File id="04">Track-04.mp3</File>
+      <File id="05">Track-05.mp3</File>
+      <File id="06">Track-06.mp3</File>
+      <File id="07">Track-07.mp3</File>
+      <File id="08">Track-08.mp3</File>
+    </Files>
+  </Rename>
+  <Rename id="3">
+    <Date>2020-11-22 20:20:20</Date>
+    <Path>\\win2k16dc01\FS012\Country\Annette\CD\_Various Artists\VHS = Bad Griesbach</Path>
+    <Titles>
+      <Title id="01">tony carey - we wanna live</Title>
+      <Title id="02">tony carey - she moves like a dancer</Title>
+      <Title id="03">tony carey - live wire</Title>
+      <Title id="04">tony carey - 10.000 times</Title>
+      <Title id="05">tony carey - tear down the walls</Title>
+      <Title id="06">tony carey - blue highway</Title>
+      <Title id="07">tony carey - love don't bother me</Title>
+      <Title id="08">tony carey - katy be mine</Title>
+    </Titles>
+    <Files>
+      <File id="01">Track-01.mp3</File>
+      <File id="02">Track-02.mp3</File>
+      <File id="03">Track-03.mp3</File>
+      <File id="04">Track-04.mp3</File>
+      <File id="05">Track-05.mp3</File>
+      <File id="06">Track-06.mp3</File>
+      <File id="07">Track-07.mp3</File>
+      <File id="08">Track-08.mp3</File>
+    </Files>
+  </Rename>
+  <Rename id="4">
+    <Date>26.11.2020</Date>
+    <Path>E:\00_mp3\MDx002</Path>
+    <Titles>
+      <Title id="1">tony carey - we wanna live</Title>
+      <Title id="2">tony carey -she moves like a dancer</Title>
+      <Title id="3">tony carey -live wire</Title>
+      <Title id="4">tony carey - 10.000 times</Title>
+      <Title id="5">tony carey - tear down the walls</Title>
+      <Title id="6">tony carey - blue highway</Title>
+      <Title id="7">tony carey - love don't bother me</Title>
+      <Title id="8">tony carey -katy be mine</Title>
+      <Title id="9">reba mcentire -like a rock</Title>
+      <Title id="10">tony carey - out of town woman</Title>
+      <Title id="11">tony carey - oux of xown womanx</Title>
+    </Titles>
+    <Files>
+      <File id="1">Track - 01.mp3</File>
+      <File id="2">Track - 02.mp3</File>
+      <File id="3">Track - 03.mp3</File>
+      <File id="4">Track - 04.mp3</File>
+      <File id="5">Track - 05.mp3</File>
+      <File id="6">Track - 07.mp3</File>
+      <File id="7">Track - 08.mp3</File>
+      <File id="8">Track - 09.mp3</File>
+      <File id="9">Track - 10.mp3</File>
+      <File id="10">Track - 11.mp3</File>
+      <File id="11">Track - 12.mp3</File>
+    </Files>
+  </Rename>
+</Log>

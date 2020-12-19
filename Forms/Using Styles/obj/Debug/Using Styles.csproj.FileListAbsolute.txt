@@ -1,0 +1,16 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\bin\Debug\Using Styles.exe.config
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\bin\Debug\Using Styles.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\bin\Debug\Using Styles.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using Styles.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using Styles_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using Styles_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\App.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using Styles.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using_Styles.Properties.Resources.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using Styles.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using Styles.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using Styles.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Using Styles\obj\Debug\Using Styles.pdb

@@ -5,27 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RenamerLog"
         mc:Ignorable="d"
-        Title="Renames" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" FontWeight="Normal"
-            Loaded="Window_Loaded" Width="269" Background="#FF5C645C">
-    <Window.Resources>
+        Title="Renames" SizeToContent="WidthAndHeight" WindowStyle="None" WindowStartupLocation="CenterScreen" FontWeight="Normal"
+            Loaded="Window_Loaded" MouseLeftButtonDown="Window_MouseMove" Background="#FF1E74DA">
 
-    </Window.Resources>
-    <Grid Margin="10" Background="#FFAAB2AA">
+    <Grid Margin="10 0 10 10" Background="#FF0888C7">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="22"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="34"/>
+            <RowDefinition Height="36"/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical"
-                    Background="LightBlue" HorizontalAlignment="Center">
-            <TextBlock Text="List of renames" Margin="4 0" FontWeight="Bold" HorizontalAlignment="Center"/>
+        <Grid Grid.Row="0" Grid.ColumnSpan="3" Background="#FF1E74DA">
+            <TextBlock Text="Undo Form" Height="24" Margin="10 0 0 4" Foreground="AntiqueWhite" FontSize="18" FontWeight="Bold"/>
+        </Grid>
+        <StackPanel x:Name="stackpanelPath" Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Background="#FF0888C7">
+            <TextBlock x:Name="textblockPath1" Text="Path:" HorizontalAlignment="Right" Height="0" Margin="2 0" Foreground="DarkBlue" FontWeight="Bold" />
+            <TextBlock x:Name="textblockPath2" Text="" Height="0" Margin="2 0 0 0" Foreground="AntiqueWhite" />
         </StackPanel>
-        <ListBox Grid.Row="1" Grid.Column="0" x:Name="listboxDates" Background="Beige"
+        <Grid Grid.Row="2" Grid.Column="0" Background="#FF7AB2F5">
+            <TextBlock Text="List of renames" Margin="8 0" FontWeight="Bold" Foreground="DarkBlue" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        </Grid>
+        <ListBox Grid.Row="3" Grid.Column="0" x:Name="listboxDates" Background="Beige" MinHeight="40"
                  SelectionChanged="listboxDates_SelectionChanged">
             <ListBox.ItemTemplate>
                 <DataTemplate>
@@ -36,11 +42,10 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical"
-                    Background="LightBlue" HorizontalAlignment="Center">
-            <TextBlock Text="List of titles" Margin="4 0" FontWeight="Bold" HorizontalAlignment="Center"/>
-        </StackPanel>
-        <ListBox Grid.Row="1" Grid.Column="1" x:Name="listboxTitles" Background="Beige">
+        <Grid Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch" Background="#FF7AB2F5">
+            <TextBlock Text="List of titles" Margin="8 0" Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        </Grid>
+        <ListBox Grid.Row="3" Grid.Column="1" x:Name="listboxTitles" Background="Beige">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal" Margin="0 -4">
@@ -50,11 +55,10 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical"
-                    Background="LightBlue" HorizontalAlignment="Center">
-            <TextBlock Text="List of files" Margin="4 0" FontWeight="Bold" HorizontalAlignment="Center"/>
-        </StackPanel>
-        <ListBox Grid.Row="1" Grid.Column="2" x:Name="listboxFiles" Background="Beige">
+        <Grid Grid.Row="2" Grid.Column="2" Background="#FF7AB2F5">
+            <TextBlock Text="List of files" Margin="8 0" Foreground="DarkBlue" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        </Grid>
+        <ListBox Grid.Row="3" Grid.Column="2" x:Name="listboxFiles" Background="Beige">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal" Margin="0 -4">
@@ -64,9 +68,9 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <StackPanel Grid.Row="2" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" Background="#FFAAB2AA">
-            <Button x:Name="buttonSave"   Content="_Save"   IsDefault="True" Width="60" Margin="20 5" Click="buttonSave_Click"/>
-            <Button x:Name="buttonCancel" Content="_Cancel" IsCancel="True"  Width="60" Margin="20 5"/>
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="buttonSave"   Content="Save"   IsDefault="True" Width="60" Margin="20 5" Click="buttonSave_Click"/>
+            <Button x:Name="buttonCancel" Content="Cancel" IsCancel="True"  Width="60" Margin="20 5"/>
         </StackPanel>
     </Grid>
 </Window>

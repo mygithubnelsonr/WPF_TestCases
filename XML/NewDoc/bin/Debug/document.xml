@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<log>
+  <rename id="5">
+    <date>25.11.2020</date>
+    <path>E:\00_mp3\MDx002</path>
+    <titles>
+      <title id="1">tony carey - we wanna live</title>
+      <title id="2">tony carey -she moves like a dancer</title>
+      <title id="3">tony carey -live wire</title>
+      <title id="4">tony carey - 10.000 times</title>
+      <title id="5">tony carey - tear down the walls</title>
+      <title id="6">tony carey - blue highway</title>
+      <title id="7">tony carey - love don't bother me</title>
+      <title id="8">tony carey -katy be mine</title>
+      <title id="9">reba mcentire -like a rock</title>
+      <title id="10">tony carey - out of town woman</title>
+      <title id="11">tony carey - oux of xown womanx</title>
+    </titles>
+    <files>
+      <file id="1">Track - 01.mp3</file>
+      <file id="2">Track - 02.mp3</file>
+      <file id="3">Track - 03.mp3</file>
+      <file id="4">Track - 04.mp3</file>
+      <file id="5">Track - 05.mp3</file>
+      <file id="6">Track - 07.mp3</file>
+      <file id="7">Track - 08.mp3</file>
+      <file id="8">Track - 09.mp3</file>
+      <file id="9">Track - 10.mp3</file>
+      <file id="10">Track - 11.mp3</file>
+      <file id="11">Track - 12.mp3</file>
+    </files>
+  </rename>
+</log>
