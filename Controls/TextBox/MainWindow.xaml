@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TextBox"
         mc:Ignorable="d"
-        Title="MainWindow" Height="202" Width="400" WindowStartupLocation="CenterScreen">
-    <Grid Margin="4">
+        Title="MainWindow" Height="202" Width="400" WindowStartupLocation="CenterScreen" Background="#FF0D3359">
+    <Grid Margin="10" Background="#FF3E76EC">
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
@@ -24,6 +24,10 @@
             <ComboBoxItem Content="asdfg"/>
             <ComboBoxItem Content="yxcvb"/>
         </ComboBox>
+        <TextBox x:Name="textboxDrop" Grid.Row="1" Grid.ColumnSpan="2" Margin="4" Background="#FFBDBD95" AllowDrop="True"
+                 PreviewDragEnter="textboxDrop_PreviewDragEnter"
+                 PreviewDragOver="textboxDrop_PreviewDragOver"
+                 PreviewDrop="textboxDrop_PreviewDrop"/>
         <TextBlock x:Name="textboxInfo" Grid.Row="2" Grid.ColumnSpan="2"/>
         <Button Grid.Row="3" Grid.ColumnSpan="2" Content="Test" Width="60" Click="Button_Click"/>
     </Grid>

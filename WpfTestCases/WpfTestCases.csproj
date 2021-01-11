@@ -55,60 +55,37 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="MoveControl.xaml.cs">
+    <Compile Include="Views\MoveControl.xaml.cs">
       <DependentUpon>MoveControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shapes.xaml.cs">
-      <DependentUpon>Shapes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Menu.xaml.cs">
-      <DependentUpon>Menu.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Sitcom.cs" />
-    <Compile Include="Text over Image.xaml.cs">
+    <Compile Include="Model\Sitcom.cs" />
+    <Compile Include="Views\Text over Image.xaml.cs">
       <DependentUpon>Text over Image.xaml</DependentUpon>
     </Compile>
-    <Page Include="%28De%29 Serialize Persons.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Compile Include="Views\ArrayListExample.xaml.cs">
+      <DependentUpon>ArrayListExample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Datenvorlagen.xaml.cs">
+    <Compile Include="Views\Datenvorlagen.xaml.cs">
       <DependentUpon>Datenvorlagen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person.cs" />
-    <Compile Include="%28De%29 Serialize Persons.xaml.cs">
-      <DependentUpon>%28De%29 Serialize Persons.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="DockPanel2.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Datenvorlagen.xaml">
+    <Compile Include="Model\Person.cs" />
+    <Page Include="Views\Datenvorlagen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DockPanel1.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="MoveControl.xaml">
+    <Page Include="Views\MoveControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shapes.xaml">
+    <Page Include="Views\Text over Image.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Menu.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Text over Image.xaml">
+    <Page Include="Views\ArrayListExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -145,9 +122,9 @@
     <Resource Include="Images\image3.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Avatar05.png">
+    <Content Include="Images\Avatar05.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
+    </Content>
     <Resource Include="Images\Avatar06.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

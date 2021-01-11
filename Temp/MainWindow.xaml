@@ -16,7 +16,12 @@
                     <Rectangle Width="20" Height="6" Fill="White"/>
                 </Button.Content>
             </Button>
-            <Button Content="X" Background="#FF5D00FF" Margin="10 0 20 0" Style="{StaticResource exitButton}"/>
+            <Button Content="X" Background="#FF5D00FF" Margin="10 0 20 0" Style="{StaticResource exitButton}"
+                    Click="buttonExit_Click"/>
         </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10"/>
+        <Button x:Name="buttonOpen" Content="Open" Margin="60" Width="80" Height="40" FontSize="20" FontWeight="Bold" Background="Aquamarine"
+                Click="buttonOpen_Click"/>
+
     </StackPanel>
 </Window>

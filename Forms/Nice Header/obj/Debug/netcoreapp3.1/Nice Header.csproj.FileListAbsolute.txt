@@ -1,0 +1,19 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\bin\Debug\netcoreapp3.1\Nice Header.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\bin\Debug\netcoreapp3.1\Nice Header.deps.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\bin\Debug\netcoreapp3.1\Nice Header.runtimeconfig.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\bin\Debug\netcoreapp3.1\Nice Header.runtimeconfig.dev.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\bin\Debug\netcoreapp3.1\Nice Header.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\bin\Debug\netcoreapp3.1\Nice Header.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header.AssemblyInfoInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header.AssemblyInfo.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Nice Header\obj\Debug\netcoreapp3.1\Nice Header.genruntimeconfig.cache

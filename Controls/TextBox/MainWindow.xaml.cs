@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,6 +48,27 @@ namespace TextBox
         private void ProcessInput()
         {
             textboxInfo.Text = textbox.Text;
+        }
+
+        private void textboxDrop_PreviewDragEnter(object sender, DragEventArgs e)
+        {
+            e.Handled = true;
+            Debug.Print("textboxDrop_PreviewDragEnter");
+        }
+
+        private void textboxDrop_PreviewDragOver(object sender, DragEventArgs e)
+        {
+            Debug.Print("textboxDrop_PreviewDragOver");
+
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+                e.Effects = DragDropEffects.All;
+            else
+                e.Effects = DragDropEffects.None;
+        }
+
+        private void textboxDrop_PreviewDrop(object sender, DragEventArgs e)
+        {
+            Debug.Print("textboxDrop_PreviewDrop");
         }
     }
 }

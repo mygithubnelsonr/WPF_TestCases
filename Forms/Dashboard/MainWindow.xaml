@@ -98,19 +98,19 @@
                 Click="buttonExit_Click"/>
         <Button x:Name="button1" Grid.Row="2" Grid.Column="0" Style="{StaticResource bigButton}" Click="button1_Click">
             <StackPanel>
-                <Image Source="/Images/Playback_Play.png"  Width="60" Height="60"/>
+                <Image Source="/Images/Jukebox.png"  Width="60" Height="60"/>
                 <TextBlock Text="Jukebox" HorizontalAlignment="Center"/>
             </StackPanel>
         </Button>
         <Button x:Name="button2" Grid.Row="2" Grid.Column="1" Style="{StaticResource bigButton}" Click="button2_Click">
             <StackPanel>
-                <Image Source="/Images/Playback_Next.png"  Width="60" Height="60"/>
+                <Image Source="/Images/Import.png"  Width="60" Height="60"/>
                 <TextBlock Text="Importer" HorizontalAlignment="Center"/>
             </StackPanel>
         </Button>
         <Button x:Name="button3" Grid.Row="2" Grid.Column="2" Style="{StaticResource bigButton}" Click="button3_Click">
             <StackPanel>
-                <Image Source="/Images/Playback_Loop.png"  Width="60" Height="60"/>
+                <Image Source="/Images/Edit.png"  Width="60" Height="60"/>
                 <TextBlock Text="Editor" HorizontalAlignment="Center"/>
             </StackPanel>
         </Button>

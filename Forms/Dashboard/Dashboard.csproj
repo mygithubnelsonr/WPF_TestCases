@@ -95,10 +95,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Playback_Loop.png" />
-    <Resource Include="Images\Playback_Next.png" />
-    <Resource Include="Images\Playback_Pause.png" />
-    <Resource Include="Images\Playback_Play.png" />
+    <Resource Include="Images\Jukebox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Edit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

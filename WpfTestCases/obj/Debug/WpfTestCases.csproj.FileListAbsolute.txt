@@ -25,28 +25,24 @@ A:\Source\Repos\90_Work\WpfTestCases\WpfTestCases\obj\Debug\Shapes.baml
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\bin\Debug\WpfTestCases.exe.config
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\bin\Debug\WpfTestCases.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\bin\Debug\WpfTestCases.pdb
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\(De) Serialize Persons.g.cs
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Datenvorlagen.g.cs
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Shapes.g.cs
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Menu.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\App.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases_MarkupCompile.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases_MarkupCompile.lref
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\(De) Serialize Persons.baml
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Datenvorlagen.baml
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Shapes.baml
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Menu.baml
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.g.resources
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.Properties.Resources.resources
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.csproj.GenerateResource.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.pdb
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\DockPanel1.baml
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\DockPanel2.g.cs
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\DockPanel2.baml
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Text over Image.g.cs
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Text over Image.baml
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.csprojAssemblyReference.cache
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\MoveControl.g.cs
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\MoveControl.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\ArrayListExample.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\ArrayListExample.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Datenvorlagen.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Datenvorlagen.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\MoveControl.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\MoveControl.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Text over Image.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Text over Image.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\(De) Serialize Persons.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\(De) Serialize Persons.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\bin\Debug\Images\Avatar05.png
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases_Content.g.cs
