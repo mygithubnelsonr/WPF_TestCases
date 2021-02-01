@@ -1,0 +1,18 @@
+﻿<Window x:Class="Dialog_Interaction.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dialog_Interaction"
+        mc:Ignorable="d"
+        Title="Dialog Interaction" Height="200" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textblock" Text="iput text here" Height="24" Margin="10" Background="Bisque"/>
+        <Button Grid.Row="2" x:Name="buttonOperDialog" Content="Open Dialog" Height="30" Width="80" Margin="10" Click="buttonOperDialog_Click"/>
+    </Grid>
+</Window>

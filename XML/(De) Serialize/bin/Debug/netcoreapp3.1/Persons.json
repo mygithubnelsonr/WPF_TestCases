@@ -1,0 +1,54 @@
+{
+  "Persons": {
+    "Person": [
+      {
+        "ID": "1",
+        "Nachname": "Nelson",
+        "Vorname": "Bob",
+        "VollerName": "Bob Nelson",
+        "Alter": "65",
+        "Image": "images\\avatar05.png"
+      },
+      {
+        "ID": "2",
+        "Nachname": "Meier",
+        "Vorname": "Sepp",
+        "VollerName": "Sepp Meier",
+        "Alter": "23",
+        "Image": "images\\avatar06.png"
+      },
+      {
+        "ID": "3",
+        "Nachname": "Huber",
+        "Vorname": "Anna",
+        "VollerName": "Anna Huber",
+        "Alter": "21",
+        "Image": "images\\avatar07.png"
+      },
+      {
+        "ID": "4",
+        "Nachname": "Schulz",
+        "Vorname": "Maria",
+        "VollerName": "Maria Schulz",
+        "Alter": "18",
+        "Image": "images\\avatar10.png"
+      },
+      {
+        "ID": "5",
+        "Nachname": "Fuchs",
+        "Vorname": "Peter",
+        "VollerName": "Peter Fuchs",
+        "Alter": "55",
+        "Image": "images\\avatar11.png"
+      },
+      {
+        "ID": "6",
+        "Nachname": "Suler",
+        "Vorname": "Johann",
+        "VollerName": "Johann Suler",
+        "Alter": "44",
+        "Image": "images\\Avatar12.png"
+      }
+    ]
+  }
+}

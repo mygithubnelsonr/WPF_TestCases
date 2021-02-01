@@ -1,0 +1,30 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\CRUD Examples.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\CRUD Examples.deps.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\CRUD Examples.runtimeconfig.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\CRUD Examples.runtimeconfig.dev.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\CRUD Examples.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\CRUD Examples.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.AssemblyInfoInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.AssemblyInfo.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.genruntimeconfig.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.csproj.CopyComplete
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Images\Avatar05.png
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Images\Avatar06.png
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Images\Avatar07.png
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Images\Avatar10.png
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Images\Avatar11.png
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Images\Avatar12.png
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Images\Avatar13.png
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\bin\Debug\netcoreapp3.1\Persons.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples_Content.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\CRUD Examples\obj\Debug\netcoreapp3.1\CRUD Examples.csprojAssemblyReference.cache

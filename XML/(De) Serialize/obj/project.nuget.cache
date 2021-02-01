@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "l57DyhQL7Zl0yxp77aLTyWCF+pcgjMV827R9FZosGshYdxolmE8E7QOBFzEkFzg/2Byjf36PCfsR3Zr7taCFWA==",
+  "dgSpecHash": "RYGuawNMDgS0baZ/RXcKnTh+fzovIhBzsD+h55w2BaEhu+v99kPepfuiT6WY6i6EIFf0jK1lSN/wAfWRh3diEA==",
   "success": true,
   "projectFilePath": "A:\\Source\\Repos\\90_Work\\WPF\\WpfTestCases\\XML\\(De) Serialize\\(De) Serialize.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nelsonr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\nelsonr\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,7 +4,6 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\RenameLog\bin\Debug\RenameLog.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\RenameLog\bin\Debug\RenameLog.pdb
 A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\RenameLog\bin\Debug\Newtonsoft.Json.dll
 A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\RenameLog\bin\Debug\Newtonsoft.Json.xml
-A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\RenameLog\obj\Debug\RenameLog.csprojAssemblyReference.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\RenameLog\obj\Debug\MainWindow.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\RenameLog\obj\Debug\App.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\JSON\RenameLog\obj\Debug\RenameLog_MarkupCompile.cache

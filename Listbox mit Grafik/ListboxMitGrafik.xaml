@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Listbox_mit_Grafik"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="300" WindowStartupLocation="CenterScreen">
-    <ListBox x:Name="lstSitcoms1" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}">
+        Title="MainWindow" Height="450" Width="300" WindowStartupLocation="CenterScreen" Background="#FF05055D">
+    <ListBox x:Name="lstSitcoms1" Margin="10" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}">
         <ListBox.ItemTemplate>
             <DataTemplate>
                 <StackPanel Margin="10" Width=" 200">

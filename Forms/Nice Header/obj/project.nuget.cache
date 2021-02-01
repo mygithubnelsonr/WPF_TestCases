@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hcziJfSpG/Mj5QMEEIBdjGzzRxTHnFL+tHOcRllxPOw8xuF7nwNzJxWoOmQmyeUdV1IEiKSUOMwkE7ylr3uNeA==",
+  "dgSpecHash": "/N4eHZclSFLlYKoJg6a2r48+yXBqAaLcGkkPJDLOFaJjOGKUBsKORzFiblsJyi0c0QUCPFKxenkRTVeKEMdlvg==",
   "success": true,
   "projectFilePath": "A:\\Source\\Repos\\90_Work\\WPF\\WpfTestCases\\Forms\\Nice Header\\Nice Header.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\nelsonr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

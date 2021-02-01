@@ -24,3 +24,6 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\(De) Serialize\bin\Debug\netcoreapp
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\(De) Serialize\bin\Debug\netcoreapp3.1\Images\Avatar13.png
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\(De) Serialize\bin\Debug\netcoreapp3.1\Images\Avatar11.png
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\(De) Serialize\obj\Debug\netcoreapp3.1\(De) Serialize_Content.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\(De) Serialize\obj\Debug\netcoreapp3.1\(De) Serialize.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\(De) Serialize\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\(De) Serialize\obj\Debug\netcoreapp3.1\(De) Serialize.csproj.CopyComplete

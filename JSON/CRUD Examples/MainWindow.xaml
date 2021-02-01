@@ -1,0 +1,87 @@
+﻿<Window x:Class="CRUD_Examples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRUD_Examples"
+        mc:Ignorable="d"
+        Title="JSON CRUD" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen"
+            Background="#FF070763" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Height" Value="24"/>
+            <Setter Property="Margin" Value="6"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Bottom" Margin="10 0 10 10" Background="Bisque">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                 <Button x:Name="buttonDelete" Content="Delete"
+                        FontWeight="Bold" Click="buttonDelete_Click" />
+                 <Button x:Name="buttonEdit" Content="Edit"
+                        FontWeight="Bold" Click="buttonEdit_Click" />
+                <Button x:Name="buttonAdd" Content="New"
+                        FontWeight="Bold" Click="buttonNew_Click" />
+                <Button x:Name="buttonSave" Content="Save"
+                        FontWeight="Bold" Click="buttonSave_Click" />
+            </StackPanel>
+        </StackPanel>
+        <Grid Margin="10 10 10 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="270"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0" Background="Bisque">
+                <ListBox x:Name="listBox" Height="280" Margin="10 10 10 0" SelectedIndex="0" SelectedItem="0" SelectionChanged="listBox_SelectionChanged">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="{Binding Path=Vorname}" HorizontalAlignment="Left"/>
+                                <Label Content="{Binding Path=Nachname}" FontWeight="Bold" HorizontalAlignment="Right"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Background="Bisque">
+                <StackPanel.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Width" Value="200"/>
+                        <Setter Property="IsEnabled" Value="False"/>
+                    </Style>
+                    <Style TargetType="Label">
+                        <Setter Property="Padding" Value="4 2"/>
+                    </Style>
+                </StackPanel.Resources>
+                <StackPanel Grid.Column="1" Margin="10">
+                    <StackPanel>
+                        <Label Content="ID:" FontWeight="Bold"/>
+                        <TextBox x:Name="textID" Height="24" Text="{Binding Path=ID}" />
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="Vorname:" FontWeight="Bold"/>
+                        <TextBox x:Name="textVorname" Height="24" Text="{Binding Path=Vorname}"/>
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="Nachname:" FontWeight="Bold"/>
+                        <TextBox x:Name="textNachname" Height="24" Text="{Binding Path=Nachname}"/>
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="Alter:" FontWeight="Bold"/>
+                        <TextBox x:Name="textAlter" Height="24" Text="{Binding Path=Alter}"/>
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="Image:" FontWeight="Bold"/>
+                        <Grid>
+                            <Image x:Name="picture" Width="60" Height="60" Visibility="Visible"
+                                   HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                            <TextBox x:Name="textImage" Height="24" Visibility="Hidden" Text="{Binding Path=Image}"
+                                     HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>

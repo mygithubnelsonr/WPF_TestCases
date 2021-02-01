@@ -1,0 +1,20 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\bin\Debug\netcoreapp3.1\Dependency Properties.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\bin\Debug\netcoreapp3.1\Dependency Properties.deps.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\bin\Debug\netcoreapp3.1\Dependency Properties.runtimeconfig.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\bin\Debug\netcoreapp3.1\Dependency Properties.runtimeconfig.dev.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\bin\Debug\netcoreapp3.1\Dependency Properties.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\bin\Debug\netcoreapp3.1\Dependency Properties.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties.AssemblyInfoInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties.AssemblyInfo.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\Dependency Properties.genruntimeconfig.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Dependency Properties\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs

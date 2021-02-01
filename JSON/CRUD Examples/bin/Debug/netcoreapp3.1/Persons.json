@@ -1,0 +1,51 @@
+[
+  {
+    "ID": 1,
+    "Vorname": "Bob",
+    "Nachname": "Nelson",
+    "Alter": 65,
+    "Image": "avatar05.png"
+  },
+  {
+    "ID": 2,
+    "Vorname": "Sepp",
+    "Nachname": "Meier",
+    "Alter": 23,
+    "Image": "avatar06.png"
+  },
+  {
+    "ID": 3,
+    "Vorname": "Anna",
+    "Nachname": "Huber",
+    "Alter": 21,
+    "Image": "avatar07.png"
+  },
+  {
+    "ID": 4,
+    "Vorname": "Maria",
+    "Nachname": "Schulz",
+    "Alter": 18,
+    "Image": "avatar10.png"
+  },
+  {
+    "ID": 5,
+    "Vorname": "Peter",
+    "Nachname": "Fuchs",
+    "Alter": 55,
+    "Image": "avatar11.png"
+  },
+  {
+    "ID": 6,
+    "Vorname": "Johann",
+    "Nachname": "Suler",
+    "Alter": 44,
+    "Image": "Avatar12.png"
+  },
+  {
+    "ID": 7,
+    "Vorname": "Thomas",
+    "Nachname": "Süß",
+    "Alter": 23,
+    "Image": "Avatar13.png"
+  }
+]

@@ -1,0 +1,20 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\bin\Debug\netcoreapp3.1\Dialog Interaction.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\bin\Debug\netcoreapp3.1\Dialog Interaction.deps.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\bin\Debug\netcoreapp3.1\Dialog Interaction.runtimeconfig.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\bin\Debug\netcoreapp3.1\Dialog Interaction.runtimeconfig.dev.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\bin\Debug\netcoreapp3.1\Dialog Interaction.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\bin\Debug\netcoreapp3.1\Dialog Interaction.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction_MarkupCompile.lref
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction.AssemblyInfoInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction.AssemblyInfo.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog Interaction.genruntimeconfig.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dialog Interaction\obj\Debug\netcoreapp3.1\Dialog.baml

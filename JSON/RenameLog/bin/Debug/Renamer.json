@@ -1,99 +1,76 @@
 {
-  "importdate": [
-    {
+  "log": {
+    "Rename": {
+      "ID": "1",
       "Date": "2020-11-20 18:18:18",
-      "Titles": [
+      "Title": [
         {
-          "id": "01",
-          "title": "tony carey - we wanna live"
+          "entry": "tony carey - we wanna live",
+          "_id": "01"
         },
         {
-          "id": "02",
-          "title": "tony carey - she moves like a dancer"
+          "entry": "tony carey - she moves like a dancer",
+          "_id": "02"
         },
         {
-          "id": "03",
-          "title": "tony carey - live wire"
+          "entry": "tony carey - live wire",
+          "_id": "03"
         },
         {
-          "id": "04",
-          "title": "tony carey - 10.000 times"
+          "entry": "tony carey - 10.000 times",
+          "_id": "04"
         },
         {
-          "id": "05",
-          "title": "tony carey - tear down the walls"
+          "entry": "tony carey - tear down the walls",
+          "_id": "05"
         },
         {
-          "id": "06",
-          "title": "tony carey - blue highway"
+          "entry": "tony carey - blue highway",
+          "_id": "06"
         },
         {
-          "id": "07",
-          "title": "tony carey - love don't bother me"
+          "entry": "tony carey - love don't bother me",
+          "_id": "07"
         },
         {
-          "id": "08",
-          "title": "tony carey - katy be mine"
-        },
-        {
-          "id": "09",
-          "title": "reba mcentire - like a rock"
-        },
-        {
-          "id": "10",
-          "title": "tony carey - out of town woman"
-        },
-        {
-          "id": "11",
-          "title": "tony carey - oux of xown womanx"
+          "entry": "tony carey - katy be mine",
+          "_id": "08"
         }
       ],
-      "Files": [
+      "File": [
         {
-          "id": "01",
-          "file": "Track-01.mp3"
+          "entry": "Track-01.mp3",
+          "_id": "01"
         },
         {
-          "id": "02",
-          "file": "Track-02.mp3"
+          "entry": "Track-02.mp3",
+          "_id": "02"
         },
         {
-          "id": "03",
-          "file": "Track-03.mp3"
-        }
-        {
-          "id": "04",
-          "file": "Track-04.mp3"
+          "entry": "Track-03.mp3",
+          "_id": "03"
         },
         {
-          "id": "05",
-          "file": "Track-05.mp3"
+          "entry": "Track-04.mp3",
+          "_id": "04"
         },
         {
-          "id": "06",
-          "file": "Track-07.mp3"
+          "entry": "Track-05.mp3",
+          "_id": "05"
         },
         {
-          "id": "07",
-          "file": "Track-08.mp3"
+          "entry": "Track-06.mp3",
+          "_id": "06"
         },
         {
-          "id": "08",
-          "file": "Track-09.mp3"
+          "entry": "Track-07.mp3",
+          "_id": "07"
         },
         {
-          "id": "09",
-          "file": "Track-10.mp3"
-        },
-        {
-          "id": "10",
-          "file": "Track-11.mp3"
-        },
-        {
-          "id": "11",
-          "file": "Track-12.mp3"
+          "entry": "Track-08.mp3",
+          "_id": "08"
         }
       ]
     }
-  ]
+  }
 }

@@ -1,0 +1,58 @@
+﻿<Window x:Class="Databinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Databinding"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Databinding Demo" Height="199" Width="400" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <sys:String>Hallo Welt!</sys:String>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Center" Background="LightBlue">
+            <TextBlock x:Name="textblock" Text="Textsize" FontSize="{Binding Path=Text, ElementName=eingabe}" Margin="5" Background="Beige"/>
+            <Label Content="Fontsize eingeben:"/>
+            <TextBox x:Name="eingabe" Height="24" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" VerticalAlignment="Center" Height="88" Background="LightCoral">
+            <TextBlock Text="{Binding Path=Value, ElementName=slider, StringFormat=#0.#0, ConverterCulture=de-DE}"
+                       Margin="5" Background="Beige" Foreground="Red" FontWeight="Bold"/>
+            <Slider x:Name="slider" Height="24" Margin="5" Value="5" SmallChange="0.5" LargeChange="0.5" Cursor="Hand" TickFrequency="1" TickPlacement="BottomRight"/>
+        </StackPanel>
+        <StackPanel Grid.Column="2" Background="LightCyan" Height="88">
+            <TextBlock Text="{Binding}" Margin="5" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Path=Length}" Margin="5"/>
+            <TextBlock Text="{Binding [6]}" Margin="5"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Height="88" Background="LightGreen">
+            <StackPanel.DataContext>
+                <sys:DateTime>2021/01/29 19:40</sys:DateTime>
+            </StackPanel.DataContext>
+            <TextBlock Text="{Binding Path=Year}"/>
+            <TextBlock Text="{Binding Path=Month}"/>
+            <TextBlock Text="{Binding Path=Day}"/>
+            <TextBlock Text="{Binding Path=DayOfYear}"/>
+            <TextBlock Text="{Binding Path=DayOfWeek}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Background="LightPink">
+            <StackPanel.DataContext>
+                <local:Person Vorname="Robert" Nachame="Nelson" Alter="67" Geburtstag="1954/01/09"/>
+            </StackPanel.DataContext>
+            <TextBlock Text="{Binding Vorname}" Margin="3"/>
+            <TextBlock Text="{Binding Nachame}" Margin="3"/>
+            <TextBlock Text="{Binding Alter}" Margin="3"/>
+            <TextBlock Text="{Binding Geburtstag, StringFormat=dd.MM.yyyy, ConverterCulture=de-DE}" Margin="3" FontWeight="Bold" Foreground="Red"/>
+        </StackPanel>
+    </Grid>
+</Window>

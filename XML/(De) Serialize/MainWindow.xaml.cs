@@ -1,20 +1,14 @@
-﻿using System;
+﻿using Model;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Xml;
 using System.Xml.Serialization;
-using Model;
+
 
 namespace _De__Serialize
 {
@@ -67,7 +61,9 @@ namespace _De__Serialize
 
         private void buttonSave_Click(object sender, RoutedEventArgs e)
         {
-            PersonAdd();
+            // PersonAdd();
+
+            ConvertToJson();
         }
 
         private void listBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
@@ -90,7 +86,30 @@ namespace _De__Serialize
             picture.Stretch = System.Windows.Media.Stretch.Uniform;
         }
 
-        public void PersonAdd()
+        private void ConvertToJson()
+        {
+
+            XmlDocument doc = new XmlDocument();
+
+            string xml = @"
+                <Persons>
+                    <Person><ID>1</ID><Nachname>Nelson</Nachname><Vorname>Bob</Vorname><VollerName>Bob Nelson</VollerName><Alter>65</Alter><Image>images\avatar05.png</Image></Person>
+                    <Person><ID>2</ID><Nachname>Meier</Nachname><Vorname>Sepp</Vorname><VollerName>Sepp Meier</VollerName><Alter>23</Alter><Image>images\avatar06.png</Image></Person>
+                    <Person><ID>3</ID><Nachname>Huber</Nachname><Vorname>Anna</Vorname><VollerName>Anna Huber</VollerName><Alter>21</Alter><Image>images\avatar07.png</Image></Person>
+                    <Person><ID>4</ID><Nachname>Schulz</Nachname><Vorname>Maria</Vorname><VollerName>Maria Schulz</VollerName><Alter>18</Alter><Image>images\avatar10.png</Image></Person>
+                    <Person><ID>5</ID><Nachname>Fuchs</Nachname><Vorname>Peter</Vorname><VollerName>Peter Fuchs</VollerName><Alter>55</Alter><Image>images\avatar11.png</Image></Person>
+                    <Person><ID>6</ID><Nachname>Suler</Nachname><Vorname>Johann</Vorname><VollerName>Johann Suler</VollerName><Alter>44</Alter><Image>images\Avatar12.png</Image></Person>
+                </Persons>";
+
+            doc.LoadXml(xml);
+
+            string json = JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.Indented);
+
+            Debug.Print(json);
+
+        }
+
+        private void PersonAdd()
         {
             try
             {

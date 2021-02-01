@@ -13,4 +13,7 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dashboard\obj\Debug\Dashboard.csp
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dashboard\obj\Debug\Dashboard.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dashboard\obj\Debug\Dashboard.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dashboard\bin\Debug\Newtonsoft.Json.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dashboard\bin\Debug\Newtonsoft.Json.xml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Dashboard\obj\Debug\Dashboard.csprojAssemblyReference.cache

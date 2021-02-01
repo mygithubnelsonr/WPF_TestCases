@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GWIwdWVk2lJpanrFqtUN5kYLb1KvH7sjkAVJub2He5AlQp3XTWMAbMEYKLmXOHwePdEd/RoM72tboZQ40fEuBg==",
+  "success": true,
+  "projectFilePath": "A:\\Source\\Repos\\90_Work\\WPF\\WpfTestCases\\JSON\\CRUD Examples\\CRUD Examples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nelsonr\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

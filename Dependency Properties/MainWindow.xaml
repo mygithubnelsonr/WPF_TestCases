@@ -1,0 +1,21 @@
+﻿<Window x:Class="Dependency_Properties.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dependency_Properties"
+        mc:Ignorable="d"
+        Title="Dependency Property MyStackpanel" Height="250" Width="380" WindowStartupLocation="CenterScreen" Background="#FFD6EAF1">
+    <Grid Margin="10" Background="Bisque">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="160"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <local:MyStackpanel x:Name="mystackpanel" Grid.Row="1" IsBlue="False" Margin="15">
+            <Button Content="" Width="160" Margin="11"/>
+            <Button x:Name="buttonChange" Content="Klick me!" Width="160" Margin="11" Click="buttonChange_Click"/>
+            <Button Content="" Width="160" Margin="11"/>
+        </local:MyStackpanel>
+    </Grid>
+</Window>
