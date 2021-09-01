@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPF_using_WMP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_using_WMP"
+        xmlns:ax="clr-namespace:AxWMPLib;assembly=AxInterop.WMPLib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="337" Width="509">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Center">
+
+            <WindowsFormsHost Name="formsHost" Panel.ZIndex="200" Margin="10,10,10,84">
+                <ax:AxWindowsMediaPlayer x:Name="axWmp"/>
+            </WindowsFormsHost>
+            
+            <Button x:Name="buttonStart" Content="Start" Height="40" Width="80" Click="buttonStart_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1"  Orientation="Vertical">
+            <TextBlock Text="Filelist" FontSize="16" HorizontalAlignment="Center"/>
+            <DataGrid Height="280" Background="AntiqueWhite">
+
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>

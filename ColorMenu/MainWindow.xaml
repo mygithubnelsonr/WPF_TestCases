@@ -1,0 +1,23 @@
+﻿<Window x:Class="ColorMenu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColorMenu"
+        mc:Ignorable="d"
+        Title="Color Menu" Height="300" Width="400" WindowStartupLocation="CenterScreen" Background="#FF040466" >
+    <DockPanel Margin="10" Background="AntiqueWhite">
+        <Menu DockPanel.Dock="Top" Height="26">
+            <MenuItem x:Name="menuColor" Header="Colors">
+                <MenuItem x:Name="menuColorStatic" Header="Static Colors" Click="menuColorStatic_Click"/>
+                <MenuItem x:Name="menuColorDynamic" Header="Dynamic Colors" Click="menuColorDynamic_Click"/>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <ScrollViewer VerticalScrollBarVisibility="Visible">
+                <WrapPanel x:Name="wrappanel1" Orientation="Horizontal" Margin="10" Height=" Auto"
+                           VerticalAlignment="Top" MouseLeftButtonDown="wrappanel1_MouseLeftButtonDown"/>
+            </ScrollViewer>
+        </Grid>
+    </DockPanel>
+</Window>

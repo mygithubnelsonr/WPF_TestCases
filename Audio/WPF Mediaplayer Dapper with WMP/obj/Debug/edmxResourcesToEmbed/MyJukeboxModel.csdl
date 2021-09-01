@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyJukeboxModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MyJukeboxEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tSongs" EntityType="MyJukeboxModel.tSong" />
+    <EntitySet Name="vSongs" EntityType="MyJukeboxModel.vSongs" />
+  </EntityContainer>
+  <EntityType Name="tSong">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Album" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Artist" Type="String" MaxLength="126" FixedLength="false" Unicode="true" />
+    <Property Name="Titel" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Pfad" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="156" FixedLength="false" Unicode="true" />
+    <Property Name="ID_Genre" Type="Int32" />
+    <Property Name="ID_Catalog" Type="Int32" />
+    <Property Name="ID_Media" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vSongs">
+    <Key>
+      <PropertyRef Name="Titel" />
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Genre" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Catalog" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Album" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Artist" Type="String" MaxLength="126" FixedLength="false" Unicode="true" />
+    <Property Name="Titel" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Pfad" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="156" FixedLength="false" Unicode="true" />
+    <Property Name="Media" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

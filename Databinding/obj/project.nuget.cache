@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nqa4xAVzKieClX+lFR36lIvepSq5ui06yikou6e5KVJo3ruNQCEdzp1VW4pCRJ6y9r8HNMWheTBtDF8ZtEZYVQ==",
+  "dgSpecHash": "MnIPbOszf3zA0+N4iMs0B8/Er8O4vMX+LrexAkEpGvvhgiIZs1My1H7BDUdCcATkd6jXwD/Z6WbIvnx3e0B0Uw==",
   "success": true,
-  "projectFilePath": "A:\\Source\\Repos\\90_Work\\WPF\\WpfTestCases\\Databinding\\Databinding.csproj",
+  "projectFilePath": "A:\\Source\\Repos\\90_Work\\03_WPF\\WpfTestCases\\Databinding\\Databinding.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

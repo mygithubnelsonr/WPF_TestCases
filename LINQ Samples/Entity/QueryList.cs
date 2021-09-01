@@ -13,16 +13,16 @@ namespace Entity
         {
             QueryList queries = new QueryList();
 
-            queries.Add(new Query() { ID = 1, Name = "dt-r-01", Row = 4 });
-            queries.Add(new Query() { ID = 2, Name = "mavericks", Row = 8 });
-            queries.Add(new Query() { ID = 3, Name = "xtra_001", Row = 0 });
-            queries.Add(new Query() { ID = 4, Name = "xtra_002", Row = 0 });
-            queries.Add(new Query() { ID = 5, Name = "xtra_003", Row = 0 });
-            queries.Add(new Query() { ID = 6, Name = "xtra_004", Row = 0 });
-            queries.Add(new Query() { ID = 7, Name = "xtra_005", Row = 0 });
-            queries.Add(new Query() { ID = 8, Name = "xtra_006", Row = 0 });
-            queries.Add(new Query() { ID = 9, Name = "xtra_007", Row = 0 });
-            queries.Add(new Query() { ID = 10, Name = "xtra_008", Row = 0 });
+            queries.Add(new Query() { ID = 4, Name = "Wtra_001", Row = 81 });
+            queries.Add(new Query() { ID = 8, Name = "Ntra_001", Row = 33 });
+            queries.Add(new Query() { ID = 0, Name = "Qtra_001", Row = 12 });
+            queries.Add(new Query() { ID = 2, Name = "Btra_002", Row = 28 });
+            queries.Add(new Query() { ID = 6, Name = "Xtra_003", Row = 15 });
+            queries.Add(new Query() { ID = 5, Name = "Etra_004", Row = 56 });
+            queries.Add(new Query() { ID = 10, Name = "Stra_005", Row = 41 });
+            queries.Add(new Query() { ID = 7, Name = "Atra_006", Row = 97 });
+            queries.Add(new Query() { ID = 9, Name = "Mtra_007", Row = 66 });
+            queries.Add(new Query() { ID = 1, Name = "Ktra_008", Row = 38 });
 
             return queries;
         }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\
 WpfTestCases
 none
 false
 DEBUG;TRACE
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\App.xaml
-4-1395364076
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\App.xaml
+591968171
 1-816930678
-11488923193
-13-1505183044
-Views\Datenvorlagen.xaml;Views\MoveControl.xaml;Views\Text over Image.xaml;Views\ArrayListExample.xaml;
+13-1639813869
+1554581266
+Views\Datenvorlagen.xaml;Views\LocalDbConnection.xaml;Views\MoveControl.xaml;Views\Text over Image.xaml;Views\ArrayListExample.xaml;
 
-False
+True
 

@@ -1,51 +1,44 @@
 [
   {
-    "ID": 1,
-    "Vorname": "Bob",
+    "ID": "1",
     "Nachname": "Nelson",
-    "Alter": 65,
-    "Image": "avatar05.png"
+    "Vorname": "Bob",
+    "Alter": "65",
+    "Image": "Avatar05.png"
   },
   {
-    "ID": 2,
-    "Vorname": "Sepp",
+    "ID": "2",
     "Nachname": "Meier",
-    "Alter": 23,
-    "Image": "avatar06.png"
+    "Vorname": "Sepp",
+    "Alter": "23",
+    "Image": "Avatar06.png"
   },
   {
-    "ID": 3,
-    "Vorname": "Anna",
+    "ID": "3",
     "Nachname": "Huber",
-    "Alter": 21,
-    "Image": "avatar07.png"
+    "Vorname": "Anna",
+    "Alter": "21",
+    "Image": "Avatar07.png"
   },
   {
-    "ID": 4,
-    "Vorname": "Maria",
+    "ID": "4",
     "Nachname": "Schulz",
-    "Alter": 18,
-    "Image": "avatar10.png"
+    "Vorname": "Maria",
+    "Alter": "18",
+    "Image": "Avatar10.png"
   },
   {
-    "ID": 5,
-    "Vorname": "Peter",
+    "ID": "5",
     "Nachname": "Fuchs",
-    "Alter": 55,
-    "Image": "avatar11.png"
+    "Vorname": "Peter",
+    "Alter": "55",
+    "Image": "Avatar11.png"
   },
   {
-    "ID": 6,
-    "Vorname": "Johann",
+    "ID": "6",
     "Nachname": "Suler",
-    "Alter": 44,
+    "Vorname": "Johann",
+    "Alter": "44",
     "Image": "Avatar12.png"
-  },
-  {
-    "ID": 7,
-    "Vorname": "Thomas",
-    "Nachname": "Süß",
-    "Alter": 23,
-    "Image": "Avatar13.png"
   }
 ]

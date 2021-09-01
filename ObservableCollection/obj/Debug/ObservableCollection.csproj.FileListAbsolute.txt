@@ -12,3 +12,17 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\ObservableCollection\obj\Debug\Observab
 A:\Source\Repos\90_Work\WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\bin\Debug\ObservableCollection.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\bin\Debug\ObservableCollection.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\bin\Debug\ObservableCollection.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\ObservableCollection\obj\Debug\ObservableCollection.pdb

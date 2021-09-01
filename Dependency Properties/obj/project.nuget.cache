@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFSDrFNrqcJQGIy+uvtAA0IAooEMmOl5DQaR0whGEDztvY7SI5iNUuhAijOPUR1ww1E+jsEiiwdg34g4RfHFvA==",
+  "dgSpecHash": "GfxYeJpg907lQ7ma9rn4ZylzSY5Am5ZxFJ0lTNStQILLHBx7QaBKHQtxhkjh+6kCvf/OZu2rDXzs+tjs0rUzlg==",
   "success": true,
-  "projectFilePath": "A:\\Source\\Repos\\90_Work\\WPF\\WpfTestCases\\Dependency Properties\\Dependency Properties.csproj",
+  "projectFilePath": "A:\\Source\\Repos\\90_Work\\03_WPF\\WpfTestCases\\Dependency Properties\\Dependency Properties.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

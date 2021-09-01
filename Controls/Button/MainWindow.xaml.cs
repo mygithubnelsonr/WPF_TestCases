@@ -23,6 +23,9 @@ namespace Button
         public MainWindow()
         {
             InitializeComponent();
+
+            Color color = (Color)ColorConverter.ConvertFromString("#FFFFFF00");
+            checkbox.Background = SolidColorBrush(color);
         }
     }
 }

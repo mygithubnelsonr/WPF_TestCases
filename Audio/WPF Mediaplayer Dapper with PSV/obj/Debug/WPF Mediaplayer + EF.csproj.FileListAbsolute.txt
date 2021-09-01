@@ -1,0 +1,22 @@
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\EF_Testcase.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\EF_Testcase.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\WPF Mediaplayer + EF.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\Settings.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\EF_Testcase_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\EF_Testcase_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\bin\Debug\EF_Testcase.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\bin\Debug\EF_Testcase.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\bin\Debug\EF_Testcase.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\App.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\Settings.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\EF_Testcase.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\EF_Testcase.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\WPF Mediaplayer + EF.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\WPF Mediaplayer + EF.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\obj\Debug\WPF Mediaplayer + EF.csproj.CopyComplete
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\bin\Debug\Dapper.dll
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer + EF\bin\Debug\Dapper.xml

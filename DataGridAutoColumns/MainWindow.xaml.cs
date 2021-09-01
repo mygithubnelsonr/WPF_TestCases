@@ -1,47 +1,56 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using DasDataGrid.DataAccess;
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using DasDataGrid.DataAccess;
-using System.ComponentModel;
 
 namespace DasDataGrid
 {
-  /// <summary>
-  /// Interaction logic for MainWindow.xaml
-  /// </summary>
-  public partial class MainWindow : Window
-  {
-    public MainWindow()
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
     {
-      InitializeComponent();
-      this.DataContext = DataLoader.LoadEmployees();
-    }
+        public MainWindow()
+        {
+            InitializeComponent();
+            datagrid.DataContext = DataLoader.LoadEmployees();
+        }
 
-    private void DataGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
-    {
-      if (e.PropertyName == "Homepage"
-       || e.PropertyName == "Responsibilities")
-      {
-        e.Cancel = true;
-      }
-      else if (e.PropertyName == "FirstName")
-      {
-        e.Column.Header = "Vorname";
-      }
-      else if (e.PropertyName == "LastName")
-      {
-        e.Column.Header = "Nachname";
-      }
+        private void dataGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if (e.PropertyName == "Homepage"
+             || e.PropertyName == "Responsibilities")
+            {
+                e.Cancel = true;
+            }
+            else if (e.PropertyName == "FirstName")
+            {
+                e.Column.Header = "Vorname";
+            }
+            else if (e.PropertyName == "LastName")
+            {
+                e.Column.Header = "Nachname";
+            }
+        }
+
+        private void dataGrid_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            Debug.Print("DataGrid_MouseRightButtonUp");
+        }
+
+        private void dataGrid_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Debug.Print("DataGrid_MouseRightButtonDown");
+
+            var row = Grid.GetRow(datagrid);
+            var col = Grid.GetColumn(datagrid);
+
+            Debug.Print(row.ToString());
+            Debug.Print(col.ToString());
+
+        }
+
+
     }
-  }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/N4eHZclSFLlYKoJg6a2r48+yXBqAaLcGkkPJDLOFaJjOGKUBsKORzFiblsJyi0c0QUCPFKxenkRTVeKEMdlvg==",
+  "dgSpecHash": "2BppTOx7BoHhhU2Zb0//TSOEGL7qovdZXJll2unOl5YaQCeOqcITXBOKPZaBygtjbA2mKxjES1aATljN3NLQdA==",
   "success": true,
-  "projectFilePath": "A:\\Source\\Repos\\90_Work\\WPF\\WpfTestCases\\Forms\\Nice Header\\Nice Header.csproj",
+  "projectFilePath": "A:\\Source\\Repos\\90_Work\\03_WPF\\WpfTestCases\\Forms\\Nice Header\\Nice Header.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

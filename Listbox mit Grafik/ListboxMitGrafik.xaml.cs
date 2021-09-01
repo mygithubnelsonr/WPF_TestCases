@@ -15,9 +15,7 @@ namespace Listbox_mit_Grafik
         public MainWindow()
         {
             InitializeComponent();
-
             sitcoms = GetSitcoms();
-
             lstSitcoms1.ItemsSource = sitcoms;
         }
 
@@ -55,6 +53,11 @@ namespace Listbox_mit_Grafik
             });
 
             return sitcoms; // Das Ergebnis zurückgeben
+        }
+
+        private void lstSitcoms1_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+
         }
     }
 }

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyJukeboxModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tSongs">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Album" Type="nvarchar" MaxLength="50" />
+    <Property Name="Artist" Type="nvarchar" MaxLength="126" />
+    <Property Name="Titel" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Pfad" Type="nvarchar" MaxLength="254" />
+    <Property Name="FileName" Type="nvarchar" MaxLength="156" />
+    <Property Name="ID_Genre" Type="int" />
+    <Property Name="ID_Catalog" Type="int" />
+    <Property Name="ID_Media" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'MyJukebox.dbo.vSongs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vSongs">
+    <Key>
+      <PropertyRef Name="Titel" />
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Genre" Type="nvarchar" MaxLength="12" />
+    <Property Name="Catalog" Type="nvarchar" MaxLength="12" />
+    <Property Name="Album" Type="nvarchar" MaxLength="50" />
+    <Property Name="Artist" Type="nvarchar" MaxLength="126" />
+    <Property Name="Titel" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Pfad" Type="nvarchar" MaxLength="254" />
+    <Property Name="FileName" Type="nvarchar" MaxLength="156" />
+    <Property Name="Media" Type="nvarchar" MaxLength="12" />
+  </EntityType>
+  <EntityContainer Name="MyJukeboxModelStoreContainer">
+    <EntitySet Name="tSongs" EntityType="Self.tSongs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vSongs" EntityType="Self.vSongs" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vSongs].[ID] AS [ID], 
+    [vSongs].[Genre] AS [Genre], 
+    [vSongs].[Catalog] AS [Catalog], 
+    [vSongs].[Album] AS [Album], 
+    [vSongs].[Artist] AS [Artist], 
+    [vSongs].[Titel] AS [Titel], 
+    [vSongs].[Pfad] AS [Pfad], 
+    [vSongs].[FileName] AS [FileName], 
+    [vSongs].[Media] AS [Media]
+    FROM [dbo].[vSongs] AS [vSongs]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

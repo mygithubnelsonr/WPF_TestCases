@@ -10,3 +10,15 @@ A:\Source\Repos\90_Work\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGr
 A:\Source\Repos\90_Work\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.csproj.GenerateResource.cache
 A:\Source\Repos\90_Work\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.exe
 A:\Source\Repos\90_Work\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\obj\x86\Debug\DasDataGrid.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\bin\Debug\DasDataGrid.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\DataGridAutoColumns\bin\Debug\DasDataGrid.pdb

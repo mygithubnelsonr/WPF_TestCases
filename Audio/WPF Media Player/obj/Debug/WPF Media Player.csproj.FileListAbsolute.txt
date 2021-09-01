@@ -1,0 +1,19 @@
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\bin\Debug\Audio.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\bin\Debug\Audio.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\bin\Debug\Audio.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\Interop.WMPLib.dll
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\WPF Media Player.csproj.ResolveComReference.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\WPF Media Player.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\Audio_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\Audio_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\WPF Media Player.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\Audio.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\Audio.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\WPF Media Player.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\WPF Media Player.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\Audio.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\Audio.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Media Player\obj\Debug\WPF Media Player.csprojAssemblyReference.cache

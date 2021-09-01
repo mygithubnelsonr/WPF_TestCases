@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfTestCases.Views.LocalDbConnection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTestCases.Views"
+        mc:Ignorable="d"
+        Title="LocalDbConnection" Height="300" Width="400" WindowStartupLocation="CenterScreen" Background="#FF080857">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ListBox Grid.Row="0" x:Name="listbox" Margin="10" ItemsSource="{Binding}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=ID}" Margin="4" FontSize="16" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding Path=Name}" Margin="4" FontSize="16" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Grid.Row="1" x:Name="buttonStart" Content="Start" Width="80" Height="40" FontWeight="Bold" Click="buttonStart_Click"/>
+    </Grid>
+</Window>

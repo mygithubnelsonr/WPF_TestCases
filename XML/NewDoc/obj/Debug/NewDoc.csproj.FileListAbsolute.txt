@@ -1,7 +1,6 @@
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\bin\Debug\NewDoc.exe.config
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\bin\Debug\NewDoc.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\bin\Debug\NewDoc.pdb
-A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.csprojAssemblyReference.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\obj\Debug\MainWindow.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\obj\Debug\App.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc_MarkupCompile.cache
@@ -13,3 +12,17 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.csproj.Gene
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\bin\Debug\NewDoc.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\bin\Debug\NewDoc.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\bin\Debug\NewDoc.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\XML\NewDoc\obj\Debug\NewDoc.pdb

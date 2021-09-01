@@ -1,0 +1,22 @@
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\bin\Debug\EF_Testcase.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\bin\Debug\EF_Testcase.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\bin\Debug\EF_Testcase.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\bin\Debug\Dapper.dll
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\bin\Debug\Dapper.xml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\Views\MainWindow.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\Settings.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\GeneratedInternalTypeHelper.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\EF_Testcase_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\EF_Testcase_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\App.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\Views\MainWindow.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\Settings.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\EF_Testcase.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\EF_Testcase.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\WPF Mediaplayer Dapper with PSV.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\WPF Mediaplayer Dapper with PSV.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\WPF Mediaplayer Dapper with PSV.csproj.CopyComplete
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\EF_Testcase.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\EF_Testcase.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Audio\WPF Mediaplayer Dapper with PSV\obj\Debug\WPF Mediaplayer Dapper with PSV.csprojAssemblyReference.cache

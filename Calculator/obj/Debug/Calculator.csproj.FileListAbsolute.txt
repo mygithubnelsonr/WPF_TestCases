@@ -41,3 +41,17 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\Calculator\obj\Debug\Calculator.csproj.
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Calculator\obj\Debug\Calculator.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Calculator\obj\Debug\Calculator.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\bin\Debug\Calculator.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\bin\Debug\Calculator.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\bin\Debug\Calculator.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Calculator\obj\Debug\Calculator.pdb

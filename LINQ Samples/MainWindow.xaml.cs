@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using Entity;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
-using Entity;
 
 namespace LINQ_Samples
 {
@@ -10,18 +11,51 @@ namespace LINQ_Samples
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Query> queries;
+        private string _selectedComboboxItemText = "";
+
         public MainWindow()
         {
             InitializeComponent();
+
+            QueryList queryList = new QueryList();
+            queries = queryList.Load();
+            combobox.ItemsSource = queries.OrderBy(i => i.Name); ;
         }
 
-        private void button001_Click(object sender, RoutedEventArgs e)
+        private void buttonStart_Click(object sender, RoutedEventArgs e)
         {
-            QueryList queryList = new QueryList();
-            var list = queryList.Load();
-            var itemExist = list.Any(i => i.Name.Contains(textbox01.Text));
-            output.Text = $"{itemExist}";
+            textblockStatus.Text = "";
+            try
+            {
+                if (checkboxAnyContains.IsChecked == true)
+                {
+                    bool itemExist = queries.Any(i => i.Name.Contains(_selectedComboboxItemText));
+                    textblockStatus.Text = $"List contains {_selectedComboboxItemText}={itemExist}";
+                }
 
+                if (checkboxIndexOf.IsChecked == true)
+                {
+                    var result = queries.IndexOf(queries.Single(i => i.Name == _selectedComboboxItemText));
+                    textblockStatus.Text = $"Index of {_selectedComboboxItemText}={result}";
+                }
+                if (checkboxMinMax.IsChecked == true)
+                {
+                    int minRow = queries.Min(r => r.Row);
+                    int maxRow = queries.Max(r => r.Row);
+                    textblockStatus.Text = $"Min Row= {minRow}, Max Row={maxRow}";
+                }
+            }
+            catch (Exception ex)
+            {
+                textblockStatus.Text = ex.Message;
+            }
+        }
+
+        private void combobox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            var comboItem = (Query)combobox.SelectedItem;
+            _selectedComboboxItemText = comboItem.Name;
         }
     }
 }

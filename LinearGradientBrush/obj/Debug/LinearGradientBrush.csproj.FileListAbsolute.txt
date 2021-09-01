@@ -12,3 +12,17 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGra
 A:\Source\Repos\90_Work\WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\bin\Debug\LinearGradientBrush.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\bin\Debug\LinearGradientBrush.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\bin\Debug\LinearGradientBrush.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\LinearGradientBrush\obj\Debug\LinearGradientBrush.pdb

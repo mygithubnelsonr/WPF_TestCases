@@ -1,7 +1,6 @@
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\bin\Debug\Menus.exe.config
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\bin\Debug\Menus.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\bin\Debug\Menus.pdb
-A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\obj\Debug\Menus.csprojAssemblyReference.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\obj\Debug\MainWindow.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\obj\Debug\App.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\obj\Debug\Menus_MarkupCompile.cache

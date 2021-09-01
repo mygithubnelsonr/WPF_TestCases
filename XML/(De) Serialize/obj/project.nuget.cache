@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RYGuawNMDgS0baZ/RXcKnTh+fzovIhBzsD+h55w2BaEhu+v99kPepfuiT6WY6i6EIFf0jK1lSN/wAfWRh3diEA==",
+  "dgSpecHash": "6PH0ZPdJ/mbXMY8s8cGLgRIBnodmcR4U2zQ4f2AdBKBANiYjM7rLmHq9MqMUwUhPIksZf9gLE0JFz7ThhrZy9A==",
   "success": true,
-  "projectFilePath": "A:\\Source\\Repos\\90_Work\\WPF\\WpfTestCases\\XML\\(De) Serialize\\(De) Serialize.csproj",
+  "projectFilePath": "A:\\Source\\Repos\\90_Work\\03_WPF\\WpfTestCases\\XML\\(De) Serialize\\(De) Serialize.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nelsonr\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

@@ -42,7 +42,34 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\MoveContro
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\MoveControl.baml
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Text over Image.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Text over Image.baml
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\(De) Serialize Persons.g.cs
-A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\(De) Serialize Persons.baml
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\bin\Debug\Images\Avatar05.png
 A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases_Content.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.csprojAssemblyReference.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\bin\Debug\Images\Avatar05.png
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\bin\Debug\WpfTestCases.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\bin\Debug\WpfTestCases.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\bin\Debug\WpfTestCases.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Datenvorlagen.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\MoveControl.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Text over Image.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\ArrayListExample.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases_Content.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Datenvorlagen.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\MoveControl.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\Text over Image.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\ArrayListExample.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\LocalDbConnection.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\Views\LocalDbConnection.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\bin\Debug\Dapper.dll
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\bin\Debug\Dapper.xml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.csproj.CopyComplete
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\WpfTestCases\obj\Debug\WpfTestCases.csprojAssemblyReference.cache

@@ -1,0 +1,26 @@
+﻿<Window x:Class="ReadFromWeb.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReadFromWeb"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Background="#FFD7ECEC">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="buttonRead" Content="Read" Width="80" Height="50" Margin="20" Click="buttonRead_Click"/>
+            <Button Grid.Row="1" x:Name="buttonWrite" Content="Write" Width="80" Height="50" Margin="20" Click="buttonWrite_Click"/>
+        </Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Grid.Column="1">
+            <TextBox x:Name="textbox1" Background="AntiqueWhite"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

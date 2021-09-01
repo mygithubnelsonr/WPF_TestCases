@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fQGe+2+L1BQ9bNmuDZFDYg0GP2tUYhfK2/CzkDoMoDJ9zNeKwdNtC9GCw2QT9Flc7xiSZS/4f5E2zysAH4CsKg==",
+  "dgSpecHash": "JuNeYnPL3rp71ib28nnxCakQKQeaKISlpgaNKZzZX5BB3CDbs27LcpWAudpqTj07AvJn+MenV4G8aFa5zmTKjg==",
   "success": true,
-  "projectFilePath": "A:\\Source\\Repos\\90_Work\\WPF\\WpfTestCases\\Forms\\Dialog Interaction\\Dialog Interaction.csproj",
+  "projectFilePath": "A:\\Source\\Repos\\90_Work\\03_WPF\\WpfTestCases\\Forms\\Dialog Interaction\\Dialog Interaction.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,17 @@
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+A:\Source\Repos\90_Work\WPF\WpfTestCases\Controls\Menus\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache

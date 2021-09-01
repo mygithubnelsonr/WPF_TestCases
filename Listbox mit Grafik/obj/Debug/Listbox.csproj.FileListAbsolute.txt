@@ -13,3 +13,18 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox mit Grafik.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox mit Grafik.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\bin\Debug\Listbox mit Grafik.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\bin\Debug\Listbox mit Grafik.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\bin\Debug\Listbox mit Grafik.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\ListboxMitGrafik.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox mit Grafik_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox mit Grafik_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\ListboxMitGrafik.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox mit Grafik.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox_mit_Grafik.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox mit Grafik.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox mit Grafik.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Listbox mit Grafik\obj\Debug\Listbox.csprojAssemblyReference.cache

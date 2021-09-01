@@ -5,19 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LINQ_Samples"
         mc:Ignorable="d"
-        Title="MainWindow" Height="307" Width="534" WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="26"/>
-        </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" Background="LightBlue" VerticalAlignment="Top">
-            <TextBlock Text="Any and Contains:" VerticalAlignment="Center" FontWeight="Bold"/>
-            <Button x:Name="button001" Content="Start" Height="24" Width="60" Margin="10 0" Click="button001_Click"/>
-            <TextBlock Text="List contains " VerticalAlignment="Center"/>
-            <TextBox x:Name="textbox01" Text="xtra_004" VerticalAlignment="Center"/>
+        Title="LINQ Samples" Height="220" Width="604" WindowStartupLocation="CenterScreen" Background="{StaticResource WindowBackgroundBrush}">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="AntiqueWhite"/>
+            <Setter Property="Width" Value="85"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="AntiqueWhite"/>
+        </Style>
+        <Style TargetType="CheckBox">
+            <Setter Property="Foreground" Value="AntiqueWhite"/>
+            <Setter Property="Margin" Value="10 5"/>
+            <Setter Property="IsThreeState" Value="False"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel Margin="10" Background="{StaticResource MainGridBackgroundBrush}">
+         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Label Content="Choose Text" Margin="10 1 0 0" FontWeight="Bold" />
+            <ComboBox x:Name="combobox" Height="20" Width="120" Margin="0 5 0 0" SelectionChanged="combobox_SelectionChanged">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Path=Name}" FontWeight="Bold" HorizontalAlignment="Center"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Button x:Name="buttonStart" Content="Start" Height="20" Width="60" Margin="10 5 10 0" Click="buttonStart_Click"/>
         </StackPanel>
-        <TextBlock Grid.Row="2" x:Name="output" FontSize="14"/>
-    </Grid>
+        <StackPanel DockPanel.Dock="Bottom">
+            <TextBlock x:Name="textblockStatus" Text="....." Margin="10 0" />
+        </StackPanel>
+        <Grid x:Name="grid" Background="{StaticResource MainGridBackgroundBrush}">
+            <StackPanel Margin="10" Background="{StaticResource StackpanelBackgroundBrush}">
+                <CheckBox x:Name="checkboxAnyContains" Content="Usage of Any and Contains" />
+                <CheckBox x:Name="checkboxIndexOf" Content="Usage of IndexOf"/>
+                <CheckBox x:Name="checkboxMinMax" Content="Usage of Min and Max"/>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
 </Window>

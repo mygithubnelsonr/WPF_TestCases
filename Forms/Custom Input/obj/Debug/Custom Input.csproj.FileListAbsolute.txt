@@ -1,4 +1,3 @@
-A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.csprojAssemblyReference.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Custom Input\obj\Debug\MainWindow.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Custom Input\obj\Debug\App.g.cs
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input_MarkupCompile.cache
@@ -13,3 +12,17 @@ A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Inp
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.csproj.CoreCompileInputs.cache
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.exe
 A:\Source\Repos\90_Work\WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\bin\Debug\Custom Input.exe.config
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\bin\Debug\Custom Input.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\bin\Debug\Custom Input.pdb
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\MainWindow.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\App.g.cs
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input_MarkupCompile.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input_MarkupCompile.lref
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\MainWindow.baml
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.g.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom_Input.Properties.Resources.resources
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.csproj.GenerateResource.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.csproj.CoreCompileInputs.cache
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.exe
+A:\Source\Repos\90_Work\03_WPF\WpfTestCases\Forms\Custom Input\obj\Debug\Custom Input.pdb

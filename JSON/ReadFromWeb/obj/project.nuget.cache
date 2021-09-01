@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eXYzhixb7UBBoUR8Bc1nyLG+ugPe9dIFUAonDn6ZpE/JGq4tcAMvE3texLG5kJQIeJvOiDpbGgv405IySKYnuA==",
+  "success": true,
+  "projectFilePath": "A:\\Source\\Repos\\90_Work\\03_WPF\\WpfTestCases\\JSON\\ReadFromWeb\\ReadFromWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nelsonr\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
